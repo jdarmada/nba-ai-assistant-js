@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Node backend
+/backend/node_modules
+/backend/.env
+
+# Frontend (Vite/React)
+/frontend/node_modules
+/frontend/dist
+/frontend/.env
+
+# Mac/system
+.DS_Store
