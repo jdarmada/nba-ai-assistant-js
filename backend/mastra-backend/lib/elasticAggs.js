@@ -1,4 +1,4 @@
-import { elasticClient } from "./elasticClient";
+import { elasticClient } from "./elasticClient.js";
 
 
 
@@ -6,7 +6,7 @@ export async function getAverages(player_id, opponent_team_id) {
     try {
         //Query for Historical Averages
         const historicalQuery = await elasticClient.search({
-            index: 'career-stats',
+            index: 'sample-nba-player-data',
             size: 0,
             query: {
                 bool: {
@@ -40,7 +40,7 @@ export async function getAverages(player_id, opponent_team_id) {
 
         // Query for season averages
         const seasonQuery = await elasticClient.search({
-            index: 'career-stats',
+            index: 'sample-nba-player-data',
             size: 0,
             query: {
                 bool: {
@@ -108,3 +108,4 @@ export async function getAverages(player_id, opponent_team_id) {
         return { error: 'Queries failed' };
     }
 }
+
