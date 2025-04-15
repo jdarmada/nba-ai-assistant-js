@@ -1,15 +1,15 @@
-export const players = {
-    1: { name: 'LeBron James', team_id: 14, team_name: 'Los Angeles Lakers' },
-    2: { name: 'Stephen Curry', team_id: 10, team_name: 'Golden State Warriors' },
-    3: { name: 'Jason Tatum', team_id: 2, team_name: 'Boston Celtics' },
-    4: { name: 'Jaylen Brown', team_id: 2, team_name: 'Boston Celtics' },
-    5: { name: 'Nikola Jokic', team_id: 8, team_name: 'Denver Nuggets' },
-    6: { name: 'Luka Doncic', team_id: 14, team_name: 'Los Angeles Lakers' },
-    7: { name: 'Kyrie Irving', team_id: 7, team_name: 'Dallas Mavericks' },
-    8: { name: 'Anthony Davis', team_id: 7, team_name: 'Dallas Mavericks' },
-    9: { name: 'Kawhi Leonard', team_id: 13, team_name: 'LA Clippers' },
-    10: { name: 'Russell Westbrook', team_id: 8, team_name: 'Denver Nuggets' },
-  };
+export const playersByName = {
+    'LeBron James': { player_id: 1, team_id: 14, team_name: 'Los Angeles Lakers' },
+    'Stephen Curry': { player_id: 2, team_id: 10, team_name: 'Golden State Warriors' },
+    'Jason Tatum': { player_id: 3, team_id: 2, team_name: 'Boston Celtics' },
+    'Jaylen Brown': { player_id: 4, team_id: 2, team_name: 'Boston Celtics' },
+    'Nikola Jokic': { player_id: 5, team_id: 8, team_name: 'Denver Nuggets' },
+    'Luka Doncic': { player_id: 6, team_id: 14, team_name: 'Los Angeles Lakers' },
+    'Kyrie Irving': { player_id: 7, team_id: 7, team_name: 'Dallas Mavericks' },
+    'Anthony Davis': { player_id: 8, team_id: 7, team_name: 'Dallas Mavericks' },
+    'Kawhi Leonard': { player_id: 9, team_id: 13, team_name: 'LA Clippers' },
+    'Russell Westbrook': { player_id: 10, team_id: 8, team_name: 'Denver Nuggets' },
+};
   
   export const teams = {
     1: 'Atlanta Hawks',
@@ -42,20 +42,6 @@ export const players = {
     28: 'Toronto Raptors',
     29: 'Utah Jazz',
     30: 'Washington Wizards',
-    37: 'Chicago Stags',
-    38: 'St. Louis Bombers',
-    39: 'Cleveland Rebels',
-    40: 'Detroit Falcons',
-    41: 'Toronto Huskies',
-    42: 'Washington Capitols',
-    43: 'Providence Steamrollers',
-    44: 'Pittsburgh Ironmen',
-    45: 'Baltimore Bullets',
-    46: 'Indianapolis Jets',
-    47: 'Anderson Packers',
-    48: 'Waterloo Hawks',
-    49: 'Indianapolis Olympians',
-    51: 'Sheboygan Redskins',
   };
   
   export const teamsByName = {

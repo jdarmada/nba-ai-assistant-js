@@ -1,49 +1,46 @@
-import React, { useState } from 'react';
-import { mastraClient } from '../mastra'; 
+import React, { useEffect, useState } from 'react';
+import { MastraClient } from '@mastra/client-js';
+
+const baseUrl = 'http://localhost:4111';
+
+const client = new MastraClient({
+  baseUrl,
+});
+
+// Get a reference to your local agent
+try {
+    const agent = client.getAgent("basketballAgent");
+    const response = await agent.generate({
+      messages: [{ role: "user", content: "Compare LeBron James and Stephen Curry" }]
+    });
+    console.log("Response:", response);
+  } catch (error) {
+    console.error("Development error:", error);
+  }
 
 export default function ChatUI() {
-  const [messages, setMessages] = useState([
-    { role: 'assistant', content: 'Hello! Ask me anything about NBA fantasy basketball.' }
-  ]);
-  const [input, setInput] = useState('');
+  const [agent, setAgent] = useState(null);
 
-  // Handle sending a new user message
-  async function handleSend(e) {
-    e.preventDefault();
-    if (!input.trim()) return;
-    const userMessage = { role: 'user', content: input };
-    setMessages(prev => [...prev, userMessage]);
-    setInput('');
+  useEffect(() => {
+    const fetchAgents = async () => {
+      try {
+        console.log('Fetching agents...');
+        const agents = await client.getAgents();
+        setAgent(agents);
+        console.log('Agents fetched:', agents);
+      } catch (error) {
+        console.error('Error fetching agents:', error);
+      }
+    };
 
-    try {
-      // Get a reference to our agent via Mastra client
-      const agent = mastraClient.getAgent('fantasyAgent');
-      // Call the backend to generate a response for the updated conversation
-      const response = await agent.generate({ messages: [...messages, userMessage] });
-      // Add the assistant's reply to the chat
-      setMessages(prev => [...prev, { role: 'assistant', content: response.text }]);
-    } catch (err) {
-      console.error('Error getting response:', err);
-    }
-  }
+    fetchAgents();
+  }, []);
+
+  console.log(agent)
 
   return (
     <div className="chat-container">
-      <ul className="message-list">
-        {messages.map((msg, idx) => (
-          <li key={idx} className={msg.role === 'assistant' ? 'assistant-msg' : 'user-msg'}>
-            <strong>{msg.role === 'assistant' ? 'AI' : 'You'}:</strong> {msg.content}
-          </li>
-        ))}
-      </ul>
-      <form onSubmit={handleSend} className="input-form">
-        <input 
-          value={input} 
-          onChange={e => setInput(e.target.value)} 
-          placeholder="Type your question..." 
-        />
-        <button type="submit">Send</button>
-      </form>
+    Hello
     </div>
   );
 }

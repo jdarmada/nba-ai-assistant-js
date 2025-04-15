@@ -16,4 +16,3 @@ const checkIndex = async (indexName) => {
    await elasticClient.indices.exists({index: indexName}) ? console.log(`Index: ${indexName} exists.`) : console.log(`No indices found with the name ${indexName}.`)
 }
 
-
