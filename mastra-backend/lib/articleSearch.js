@@ -40,4 +40,3 @@ export async function getArticles(player1, player2) {
   return results
 }
 
-getArticles('LeBron James', 'Russell Westbrook');

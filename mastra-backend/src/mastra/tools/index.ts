@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-
-import { comparePlayersForNextMatchup } from '../../../lib/basketballInfo.js'
+import { getArticles } from '../../../lib/articleSearch.js'
+import { comparePlayersForNextMatchup } from '../../../lib/comparePlayers.js'
 import { createTool } from "@mastra/core/tools";
 import { z } from "zod";
 
@@ -15,5 +15,17 @@ export const playerComparisonTool = createTool({
     execute: async ({ context: { player1, player2 } }) => {
         return await comparePlayersForNextMatchup(player1, player2);
       },
+})
+
+export const articleSemanticSearch = createTool({
+    id: "Search for relevant basketball articles",
+    inputSchema: z.object({
+        player1:z.string(),
+        player2:z.string(),
+    }),
+    description: "Use this tool to find relevant basketball articles for each player given in the user prompt.",
+    execute: async ({ context: { player1, player2 }}) => {
+        return await getArticles(player1, player2)
+    }
 })
     
