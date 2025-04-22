@@ -1,46 +1,75 @@
-import React, { useEffect, useState } from 'react';
-import { MastraClient } from '@mastra/client-js';
-
-const baseUrl = 'http://localhost:4111';
-
-const client = new MastraClient({
-  baseUrl,
-});
-
-// Get a reference to your local agent
-try {
-    const agent = client.getAgent("basketballAgent");
-    const response = await agent.generate({
-      messages: [{ role: "user", content: "Compare LeBron James and Stephen Curry" }]
-    });
-    console.log("Response:", response);
-  } catch (error) {
-    console.error("Development error:", error);
-  }
+import React, { useState } from 'react';
+import { useChat } from '@ai-sdk/react';
 
 export default function ChatUI() {
-  const [agent, setAgent] = useState(null);
+    const [totalTokenUsage, setTotalTokenUsage] = useState(0);
+    const [promptTokenUsage, setPromptTokenUsage] = useState(0);
+    const [completionTokenUsage, setCompletionTokenUsage] = useState(0);
+    const [toolsCalled, setToolsCalled] = useState([]);
 
-  useEffect(() => {
-    const fetchAgents = async () => {
-      try {
-        console.log('Fetching agents...');
-        const agents = await client.getAgents();
-        setAgent(agents);
-        console.log('Agents fetched:', agents);
-      } catch (error) {
-        console.error('Error fetching agents:', error);
-      }
-    };
+    const { messages, input, handleInputChange, handleSubmit, status } = useChat({
+        api: 'http://localhost:4111/api/agents/basketballAgent/stream', //Replace with your own endpoint for your agent
+        id: 'my-chat-session',
 
-    fetchAgents();
-  }, []);
+        //Optional parameter to check agent tool calls
+        onToolCall: ({ toolCall }) => {
+            setToolsCalled((prev) => [...prev, toolCall.toolName]);
+        },
 
-  console.log(agent)
+        //Optional parameter to check token usages
+        onFinish: (message, { usage }) => {
+            setTotalTokenUsage((prev) => prev + usage.totalTokens);
+            setPromptTokenUsage((prev) => prev + usage.promptTokens);
+            setCompletionTokenUsage((prev) => prev + usage.completionTokens);
+        },
 
-  return (
-    <div className="chat-container">
-    Hello
-    </div>
-  );
+        //Optional parameter for error handling
+        onError: (error) => {
+            console.error('Agent error:', error);
+        },
+    });
+
+    return (
+        <div>
+            <h4>What's My Agent Doing?</h4>
+
+            <div>
+                <p>Prompt Token Usage: {promptTokenUsage}</p>
+                <p>Completion Token Usage: {completionTokenUsage}</p>
+                <p>Total Token Usage: {totalTokenUsage}</p>
+            </div>
+
+            <div>
+                <strong>Tools Called:</strong>
+                <ul>
+                    {toolsCalled.map((tool, idx) => (
+                        <li key={idx}>{tool}</li>
+                    ))}
+                    {toolsCalled.length === 0 && <li>No tools called yet.</li>}
+                </ul>
+            </div>
+
+            <div>
+                <strong>Conversation:</strong>
+                {messages.map((msg) => (
+                    <div key={msg.id}>
+                        <strong>{msg.role === 'assistant' ? 'Basketbot' : 'You'}:</strong> {msg.content}
+                    </div>
+                ))}
+            </div>
+
+            <form onSubmit={handleSubmit}>
+                <input
+                    type="text"
+                    value={input}
+                    onChange={handleInputChange}
+                    placeholder="Input two players you want to compare."
+                    style={{ flex: 1 }}
+                />
+                <button type="submit" disabled={status === 'streaming'}>
+                    {status === 'streaming' ? 'Thinking...' : 'Send'}
+                </button>
+            </form>
+        </div>
+    );
 }
