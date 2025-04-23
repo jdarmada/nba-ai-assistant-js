@@ -1,6 +1,6 @@
 import { Client } from '@elastic/elasticsearch';
 
-//Elastic Initialization
+//Elastic client Initialization, make sure environment variables are being loaded in correctly
 const config= {
     node: `${process.env.ELASTIC_ENDPOINT}`,
     auth: {
@@ -9,10 +9,3 @@ const config= {
 };
 
 export const elasticClient = new Client(config);
-
-
-//Simple check to see whether or not an index exists
-const checkIndex = async (indexName) => {
-   await elasticClient.indices.exists({index: indexName}) ? console.log(`Index: ${indexName} exists.`) : console.log(`No indices found with the name ${indexName}.`)
-}
-

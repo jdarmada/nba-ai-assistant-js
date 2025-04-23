@@ -5,7 +5,7 @@ import { elasticClient } from "./elasticClient.js";
 
 async function createIndex() {
     try {
-      const indexName = 'sample-nba-player-data';
+      const indexName = process.env.PLAYER_DATA_INDEX;
   
       // Create the index with mappings
       const response = await elasticClient.indices.create({
@@ -39,10 +39,6 @@ async function createIndex() {
       console.error('Error creating index:', error);
     }
   }
-  
-  // Create the index with mappings
-//   createIndex();
-
 
   async function bulkIngestCsv(filePath) { 
     const readStream = fs.createReadStream(filePath);
@@ -63,7 +59,7 @@ async function createIndex() {
         player_full_name: player_full_name.trim(),
         player_team_id: parseInt(player_team_id),
         player_team_name: player_team_name.trim(),
-        home_team: home_team.trim() === 'True', // Convert 'True'/'False' to boolean
+        home_team: home_team.trim() === 'True', // Converts 'True'/'False' into a boolean
         opponent_team_id: parseInt(opponent_team_id),
         opponent_team_name: opponent_team_name.trim(),
         points: parseFloat(points),
@@ -76,7 +72,7 @@ async function createIndex() {
       };
   
       // Prepare the bulk operation format
-      bulkBody.push({ index: { _index: 'sample-nba-player-data' } });
+      bulkBody.push({ index: { _index: indexName } });
       bulkBody.push(document);
     }
   
