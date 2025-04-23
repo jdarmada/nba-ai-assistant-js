@@ -2,10 +2,10 @@ import fs from 'fs'
 import readline from 'readline'
 import { elasticClient } from "./elasticClient.js";
 
+const indexName = process.env.PLAYER_DATA_INDEX;
 
 async function createIndex() {
     try {
-      const indexName = process.env.PLAYER_DATA_INDEX;
   
       // Create the index with mappings
       const response = await elasticClient.indices.create({

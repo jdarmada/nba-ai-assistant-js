@@ -66,3 +66,76 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+/* CHAT UI */
+
+.chat-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.chat-title {
+    color: rgb(255, 111, 0);
+}
+
+.agent-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats-title {
+    margin-top: 0;
+}
+.stats-sub-title {
+    font-size: small;
+}
+.stats-box {
+    background-color: #1a1a1a;
+    border-style: groove;
+    border-color: #1a1a1a;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.tool-list{
+    font-size: small;
+}
+
+.usage-stats {
+    font-size: small;
+   
+}
+.convo-box {
+    width: 80vw;
+    max-height: 40vh;
+    background-color: #1a1a1a;
+    border-style: groove;
+    border-color: #1a1a1a;
+    border-radius: 4px;
+    padding-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    overflow-y: scroll;
+    
+}
+
+.message-item {
+    margin-bottom: 8px;
+    border-bottom: #100f0f;
+}
+
+.message-role{
+    color: rgb(255, 98, 0);
+}
+
+.input-box {
+    width: 40%;
+    margin-right: 16px;
+    padding: 8px;
+}

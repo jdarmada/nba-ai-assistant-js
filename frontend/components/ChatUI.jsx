@@ -31,29 +31,31 @@ export default function ChatUI() {
 
     return (
         <div>
-            <h4>What's My Agent Doing?</h4>
+            <div className="agent-info">
+                <h4 className="stats-title">What's My Agent Doing?</h4>
 
-            <div>
-                <p>Prompt Token Usage: {promptTokenUsage}</p>
-                <p>Completion Token Usage: {completionTokenUsage}</p>
-                <p>Total Token Usage: {totalTokenUsage}</p>
+                <div className="stats-box">
+                    <strong className="stats-sub-title">Tools Called:</strong>
+                    <ul className="tool-list">
+                        {toolsCalled.map((tool, idx) => (
+                            <li key={idx}>{tool}</li>
+                        ))}
+                        {toolsCalled.length === 0 && <li>No tools called yet.</li>}
+                    </ul>
+
+                    <div className="usage-stats">
+                        <p>Prompt Token Usage: {promptTokenUsage}</p>
+                        <p>Completion Token Usage: {completionTokenUsage}</p>
+                        <p>Total Token Usage: {totalTokenUsage}</p>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <strong>Tools Called:</strong>
-                <ul>
-                    {toolsCalled.map((tool, idx) => (
-                        <li key={idx}>{tool}</li>
-                    ))}
-                    {toolsCalled.length === 0 && <li>No tools called yet.</li>}
-                </ul>
-            </div>
-
-            <div>
-                <strong>Conversation:</strong>
+            <strong>Conversation:</strong>
+            <div className="convo-box">
                 {messages.map((msg) => (
-                    <div key={msg.id}>
-                        <strong>{msg.role === 'assistant' ? 'Basketbot' : 'You'}:</strong> {msg.content}
+                    <div key={msg.id} className='message-item'>
+                        <strong className='message-role'>{msg.role === 'assistant' ? 'Basketbot' : 'You'}:</strong> {msg.content}
                     </div>
                 ))}
             </div>
@@ -64,7 +66,7 @@ export default function ChatUI() {
                     value={input}
                     onChange={handleInputChange}
                     placeholder="Input two players you want to compare."
-                    style={{ flex: 1 }}
+                    className='input-box'
                 />
                 <button type="submit" disabled={status === 'streaming'}>
                     {status === 'streaming' ? 'Thinking...' : 'Send'}
