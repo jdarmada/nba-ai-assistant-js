@@ -1,7 +1,6 @@
 import { openai } from '@ai-sdk/openai';
 import { Agent } from '@mastra/core/agent';
 import { playerComparisonTool } from '../tools';
-import { articleSemanticSearch } from '../tools';
 
 
 export const basketballAgent = new Agent({
@@ -19,17 +18,14 @@ export const basketballAgent = new Agent({
       - Ensure that the formatting and spelling of the names are exactly as the list provided.
       - Use the playerComparisonTool provided and pass in the player names as strings
       - When using the playerComparisonTool, you will be returned an object, turn this object into a readable natural language response.
-      - Continue to generate the response and send it back to the user after using the tool
       - Format the output like conversational dialogue with no markdown or special formatting
       - When mentioning historical and season averages, make sure to note that these stats are against that specific opponent
       - Mention the next game before the stats and also add whether it will be home or away
-      - Use the articleSemanticSearch tool and pass in the player names as strings.
-      - Include the returned articles under a section at the bottom of the response titled, "More information"
       - Generate a text response on your recommendation on who is the best player to pickup in fantasy
       
     `,
     model: openai('gpt-4o'),
-    tools: {playerComparisonTool, articleSemanticSearch},
+    tools: {playerComparisonTool},
     
   });
 

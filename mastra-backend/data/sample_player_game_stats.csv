@@ -998,3 +998,802 @@ game_id,game_date,player_id,player_full_name,player_team_id,player_team_name,hom
 997,2018-09-07,2,Stephen Curry,10,Golden State Warriors,True,7,Dallas Mavericks,16,6,8,1,0,0.58,31.2
 998,2020-06-18,5,Nikola Jokic,8,Denver Nuggets,True,18,Minnesota Timberwolves,12,13,10,5,1,0.577,31.3
 999,2003-10-23,8,Anthony Davis,7,Dallas Mavericks,True,11,Houston Rockets,10,5,3,2,0,0.561,33.0
+1000,2025-04-01,6,Luka Doncic,14,Los Angeles Lakers,False,27,San Antonio Spurs,33,12,3,5,1,0.594,37.3
+1001,2024-10-12,9,Kawhi Leonard,13,LA Clippers,True,5,Chicago Bulls,21,9,9,5,2,0.457,30.6
+1002,2025-04-04,8,Anthony Davis,7,Dallas Mavericks,False,14,Los Angeles Lakers,18,10,8,1,0,0.582,39.9
+1003,2024-10-22,1,LeBron James,14,Los Angeles Lakers,True,27,San Antonio Spurs,35,14,4,1,2,0.416,38.7
+1004,2025-01-31,4,Jaylen Brown,2,Boston Celtics,False,7,Dallas Mavericks,26,4,3,3,2,0.527,38.8
+1005,2025-02-03,8,Anthony Davis,7,Dallas Mavericks,False,26,Sacramento Kings,12,11,4,1,0,0.563,37.4
+1006,2024-11-15,7,Kyrie Irving,7,Dallas Mavericks,False,11,Houston Rockets,11,3,8,3,1,0.545,40.5
+1007,2025-01-05,5,Nikola Jokic,8,Denver Nuggets,False,12,Indiana Pacers,25,9,6,0,3,0.456,30.1
+1008,2024-10-15,9,Kawhi Leonard,13,LA Clippers,True,11,Houston Rockets,27,10,5,5,2,0.576,35.4
+1009,2025-01-10,5,Nikola Jokic,8,Denver Nuggets,False,12,Indiana Pacers,35,10,5,1,0,0.491,31.0
+1010,2025-01-30,3,Jason Tatum,2,Boston Celtics,True,12,Indiana Pacers,11,6,4,4,1,0.591,34.6
+1011,2024-10-30,9,Kawhi Leonard,13,LA Clippers,True,28,Toronto Raptors,18,6,4,0,2,0.51,36.6
+1012,2025-01-17,3,Jason Tatum,2,Boston Celtics,False,6,Cleveland Cavaliers,40,12,3,1,3,0.592,37.2
+1013,2025-01-06,10,Russell Westbrook,8,Denver Nuggets,True,9,Detroit Pistons,27,15,8,5,1,0.403,38.7
+1014,2024-11-15,4,Jaylen Brown,2,Boston Celtics,True,16,Miami Heat,24,10,4,3,1,0.465,38.5
+1015,2024-11-12,7,Kyrie Irving,7,Dallas Mavericks,True,24,Phoenix Suns,10,13,8,0,0,0.499,35.6
+1016,2025-03-23,5,Nikola Jokic,8,Denver Nuggets,True,10,Golden State Warriors,28,6,6,0,0,0.503,31.5
+1017,2024-12-07,7,Kyrie Irving,7,Dallas Mavericks,True,10,Golden State Warriors,23,5,5,4,3,0.41,36.8
+1018,2025-02-01,9,Kawhi Leonard,13,LA Clippers,True,15,Memphis Grizzlies,18,8,4,5,1,0.553,38.5
+1019,2024-12-19,7,Kyrie Irving,7,Dallas Mavericks,False,28,Toronto Raptors,15,11,10,0,1,0.489,38.5
+1020,2024-12-17,10,Russell Westbrook,8,Denver Nuggets,True,11,Houston Rockets,26,10,7,1,3,0.456,40.8
+1021,2025-01-28,3,Jason Tatum,2,Boston Celtics,True,18,Minnesota Timberwolves,30,6,4,2,3,0.48,31.6
+1022,2024-11-27,6,Luka Doncic,14,Los Angeles Lakers,False,10,Golden State Warriors,25,5,9,2,0,0.497,31.1
+1023,2025-03-26,2,Stephen Curry,10,Golden State Warriors,True,15,Memphis Grizzlies,39,15,4,0,0,0.456,33.8
+1024,2024-09-26,4,Jaylen Brown,2,Boston Celtics,False,7,Dallas Mavericks,35,8,6,4,3,0.474,32.2
+1025,2025-01-28,6,Luka Doncic,14,Los Angeles Lakers,True,18,Minnesota Timberwolves,22,10,5,0,2,0.487,37.6
+1026,2024-10-20,10,Russell Westbrook,8,Denver Nuggets,False,21,Oklahoma City Thunder,35,4,7,4,1,0.542,34.5
+1027,2025-01-15,3,Jason Tatum,2,Boston Celtics,True,18,Minnesota Timberwolves,29,4,5,2,3,0.487,38.5
+1028,2024-12-06,7,Kyrie Irving,7,Dallas Mavericks,True,21,Oklahoma City Thunder,12,3,3,3,2,0.558,33.9
+1029,2025-03-21,1,LeBron James,14,Los Angeles Lakers,False,19,New Orleans Pelicans,12,6,3,0,3,0.596,33.4
+1030,2024-10-16,1,LeBron James,14,Los Angeles Lakers,True,28,Toronto Raptors,36,15,8,4,0,0.409,33.3
+1031,2024-10-23,9,Kawhi Leonard,13,LA Clippers,False,2,Boston Celtics,26,11,5,2,3,0.417,39.0
+1032,2025-02-04,1,LeBron James,14,Los Angeles Lakers,True,21,Oklahoma City Thunder,16,13,5,0,3,0.541,40.0
+1033,2025-02-27,6,Luka Doncic,14,Los Angeles Lakers,True,26,Sacramento Kings,17,7,6,2,0,0.464,38.3
+1034,2025-01-04,2,Stephen Curry,10,Golden State Warriors,True,1,Atlanta Hawks,16,13,6,0,0,0.59,38.1
+1035,2024-11-12,10,Russell Westbrook,8,Denver Nuggets,False,17,Milwaukee Bucks,27,7,3,4,2,0.487,40.4
+1036,2024-11-18,2,Stephen Curry,10,Golden State Warriors,True,1,Atlanta Hawks,14,3,4,0,1,0.539,35.1
+1037,2024-10-15,4,Jaylen Brown,2,Boston Celtics,True,10,Golden State Warriors,20,3,6,1,3,0.42,38.0
+1038,2025-04-05,6,Luka Doncic,14,Los Angeles Lakers,True,20,New York Knicks,10,12,8,1,3,0.459,39.9
+1039,2024-12-26,2,Stephen Curry,10,Golden State Warriors,False,13,LA Clippers,36,7,8,0,1,0.566,34.3
+1040,2024-11-27,3,Jason Tatum,2,Boston Celtics,True,15,Memphis Grizzlies,10,7,3,4,1,0.58,39.6
+1041,2025-01-09,10,Russell Westbrook,8,Denver Nuggets,True,10,Golden State Warriors,40,9,10,1,2,0.493,33.9
+1042,2025-02-23,7,Kyrie Irving,7,Dallas Mavericks,False,30,Washington Wizards,33,10,8,4,0,0.454,39.3
+1043,2024-10-28,6,Luka Doncic,14,Los Angeles Lakers,True,12,Indiana Pacers,23,10,9,0,2,0.513,37.3
+1044,2025-02-08,9,Kawhi Leonard,13,LA Clippers,True,20,New York Knicks,11,14,3,2,0,0.516,37.4
+1045,2024-10-12,10,Russell Westbrook,8,Denver Nuggets,True,10,Golden State Warriors,37,15,4,4,1,0.573,40.5
+1046,2025-03-04,5,Nikola Jokic,8,Denver Nuggets,False,14,Los Angeles Lakers,37,13,9,4,3,0.45,37.5
+1047,2024-10-14,9,Kawhi Leonard,13,LA Clippers,False,23,Philadelphia 76ers,31,3,7,5,0,0.442,38.4
+1048,2025-01-13,1,LeBron James,14,Los Angeles Lakers,False,10,Golden State Warriors,16,14,7,2,2,0.588,39.5
+1049,2024-11-18,4,Jaylen Brown,2,Boston Celtics,False,20,New York Knicks,14,12,10,4,2,0.595,35.4
+1050,2025-01-22,6,Luka Doncic,14,Los Angeles Lakers,True,23,Philadelphia 76ers,14,13,4,2,3,0.488,33.9
+1051,2025-01-03,6,Luka Doncic,14,Los Angeles Lakers,False,6,Cleveland Cavaliers,26,7,4,2,0,0.478,35.8
+1052,2025-01-21,3,Jason Tatum,2,Boston Celtics,False,28,Toronto Raptors,11,13,7,0,1,0.494,32.2
+1053,2025-01-28,3,Jason Tatum,2,Boston Celtics,True,19,New Orleans Pelicans,14,12,7,4,0,0.433,36.1
+1054,2024-11-08,10,Russell Westbrook,8,Denver Nuggets,True,13,LA Clippers,33,9,8,1,3,0.469,37.2
+1055,2024-10-03,7,Kyrie Irving,7,Dallas Mavericks,True,28,Toronto Raptors,34,9,9,3,1,0.559,38.9
+1056,2025-03-19,4,Jaylen Brown,2,Boston Celtics,True,25,Portland Trail Blazers,28,13,5,4,1,0.564,30.5
+1057,2025-02-15,2,Stephen Curry,10,Golden State Warriors,True,3,Brooklyn Nets,16,10,9,5,2,0.445,33.8
+1058,2025-03-15,6,Luka Doncic,14,Los Angeles Lakers,True,21,Oklahoma City Thunder,21,12,9,4,0,0.405,36.9
+1059,2025-03-05,1,LeBron James,14,Los Angeles Lakers,False,24,Phoenix Suns,28,13,8,5,1,0.461,38.8
+1060,2024-11-04,9,Kawhi Leonard,13,LA Clippers,True,9,Detroit Pistons,17,7,3,3,0,0.486,34.4
+1061,2025-02-09,8,Anthony Davis,7,Dallas Mavericks,True,5,Chicago Bulls,31,6,9,0,1,0.403,37.7
+1062,2025-01-04,10,Russell Westbrook,8,Denver Nuggets,False,28,Toronto Raptors,35,12,5,4,2,0.549,38.5
+1063,2025-01-22,6,Luka Doncic,14,Los Angeles Lakers,True,21,Oklahoma City Thunder,29,14,10,5,1,0.556,40.4
+1064,2025-02-24,6,Luka Doncic,14,Los Angeles Lakers,False,9,Detroit Pistons,34,14,10,2,0,0.417,35.1
+1065,2025-01-04,3,Jason Tatum,2,Boston Celtics,True,1,Atlanta Hawks,40,12,7,1,2,0.49,33.0
+1066,2024-11-19,1,LeBron James,14,Los Angeles Lakers,True,3,Brooklyn Nets,13,13,9,2,0,0.405,33.0
+1067,2024-12-09,2,Stephen Curry,10,Golden State Warriors,True,7,Dallas Mavericks,15,8,3,1,0,0.465,33.2
+1068,2024-10-16,1,LeBron James,14,Los Angeles Lakers,True,28,Toronto Raptors,13,15,7,3,0,0.486,36.5
+1069,2024-10-13,10,Russell Westbrook,8,Denver Nuggets,True,23,Philadelphia 76ers,28,13,6,5,3,0.446,33.6
+1070,2025-01-25,10,Russell Westbrook,8,Denver Nuggets,False,10,Golden State Warriors,13,7,9,4,0,0.545,34.6
+1071,2024-11-12,10,Russell Westbrook,8,Denver Nuggets,False,22,Orlando Magic,22,9,3,5,0,0.47,35.1
+1072,2024-11-20,6,Luka Doncic,14,Los Angeles Lakers,False,4,Charlotte Hornets,31,4,4,5,1,0.52,40.8
+1073,2025-03-28,5,Nikola Jokic,8,Denver Nuggets,True,3,Brooklyn Nets,10,10,3,5,0,0.434,32.7
+1074,2024-10-01,10,Russell Westbrook,8,Denver Nuggets,True,29,Utah Jazz,20,4,5,3,1,0.466,40.6
+1075,2025-03-11,5,Nikola Jokic,8,Denver Nuggets,True,16,Miami Heat,28,15,3,2,0,0.52,32.1
+1076,2024-10-02,6,Luka Doncic,14,Los Angeles Lakers,True,26,Sacramento Kings,20,15,3,0,2,0.538,35.4
+1077,2024-12-10,1,LeBron James,14,Los Angeles Lakers,False,18,Minnesota Timberwolves,10,9,7,0,1,0.585,39.5
+1078,2024-10-01,5,Nikola Jokic,8,Denver Nuggets,False,14,Los Angeles Lakers,19,9,6,1,0,0.475,32.1
+1079,2024-11-30,9,Kawhi Leonard,13,LA Clippers,True,26,Sacramento Kings,32,15,9,1,2,0.473,32.0
+1080,2025-03-09,3,Jason Tatum,2,Boston Celtics,False,3,Brooklyn Nets,32,11,5,2,3,0.525,36.6
+1081,2025-03-05,6,Luka Doncic,14,Los Angeles Lakers,False,19,New Orleans Pelicans,34,15,7,1,1,0.454,32.3
+1082,2025-03-10,1,LeBron James,14,Los Angeles Lakers,False,15,Memphis Grizzlies,11,12,4,1,1,0.413,36.8
+1083,2025-02-08,1,LeBron James,14,Los Angeles Lakers,True,5,Chicago Bulls,10,3,8,1,1,0.545,38.4
+1084,2025-02-03,6,Luka Doncic,14,Los Angeles Lakers,False,1,Atlanta Hawks,32,8,3,0,2,0.451,36.0
+1085,2024-11-05,8,Anthony Davis,7,Dallas Mavericks,False,3,Brooklyn Nets,34,11,9,5,2,0.563,33.2
+1086,2024-10-03,3,Jason Tatum,2,Boston Celtics,True,19,New Orleans Pelicans,29,4,4,5,1,0.545,32.5
+1087,2025-02-07,9,Kawhi Leonard,13,LA Clippers,True,12,Indiana Pacers,35,11,5,3,1,0.53,33.0
+1088,2025-01-21,9,Kawhi Leonard,13,LA Clippers,True,30,Washington Wizards,38,10,6,5,1,0.567,40.8
+1089,2025-04-01,5,Nikola Jokic,8,Denver Nuggets,False,2,Boston Celtics,15,7,7,0,2,0.427,30.8
+1090,2024-12-19,10,Russell Westbrook,8,Denver Nuggets,False,9,Detroit Pistons,13,4,9,1,2,0.413,31.3
+1091,2025-03-28,7,Kyrie Irving,7,Dallas Mavericks,False,6,Cleveland Cavaliers,38,13,8,1,1,0.4,39.0
+1092,2024-10-08,9,Kawhi Leonard,13,LA Clippers,False,19,New Orleans Pelicans,28,7,8,3,1,0.414,30.4
+1093,2025-01-02,4,Jaylen Brown,2,Boston Celtics,False,17,Milwaukee Bucks,34,8,5,4,1,0.504,35.9
+1094,2025-02-15,1,LeBron James,14,Los Angeles Lakers,True,20,New York Knicks,26,15,8,2,3,0.439,33.0
+1095,2024-10-01,5,Nikola Jokic,8,Denver Nuggets,True,3,Brooklyn Nets,21,7,10,4,3,0.591,39.1
+1096,2024-09-27,2,Stephen Curry,10,Golden State Warriors,False,15,Memphis Grizzlies,39,7,6,0,2,0.426,35.8
+1097,2025-01-11,10,Russell Westbrook,8,Denver Nuggets,False,3,Brooklyn Nets,29,4,8,3,2,0.532,40.3
+1098,2025-01-30,10,Russell Westbrook,8,Denver Nuggets,False,2,Boston Celtics,28,8,4,4,0,0.582,39.7
+1099,2024-10-29,1,LeBron James,14,Los Angeles Lakers,True,20,New York Knicks,18,14,4,0,3,0.437,40.9
+1100,2025-03-19,3,Jason Tatum,2,Boston Celtics,True,14,Los Angeles Lakers,24,3,3,2,0,0.529,32.4
+1101,2024-11-29,4,Jaylen Brown,2,Boston Celtics,True,24,Phoenix Suns,33,7,10,3,2,0.583,34.7
+1102,2024-11-14,6,Luka Doncic,14,Los Angeles Lakers,False,16,Miami Heat,20,14,10,2,0,0.532,36.6
+1103,2024-10-09,10,Russell Westbrook,8,Denver Nuggets,False,3,Brooklyn Nets,26,6,3,5,3,0.451,33.7
+1104,2025-02-14,9,Kawhi Leonard,13,LA Clippers,False,19,New Orleans Pelicans,23,12,4,0,0,0.518,30.8
+1105,2025-03-21,10,Russell Westbrook,8,Denver Nuggets,False,10,Golden State Warriors,35,14,3,4,3,0.453,38.6
+1106,2024-11-08,1,LeBron James,14,Los Angeles Lakers,True,4,Charlotte Hornets,11,5,8,0,3,0.441,30.1
+1107,2025-02-10,6,Luka Doncic,14,Los Angeles Lakers,True,29,Utah Jazz,10,5,4,2,0,0.489,38.6
+1108,2024-10-06,1,LeBron James,14,Los Angeles Lakers,True,1,Atlanta Hawks,29,10,5,3,1,0.448,32.7
+1109,2025-03-13,9,Kawhi Leonard,13,LA Clippers,True,21,Oklahoma City Thunder,13,13,7,3,1,0.407,34.0
+1110,2025-03-19,10,Russell Westbrook,8,Denver Nuggets,True,18,Minnesota Timberwolves,27,10,7,3,0,0.534,30.2
+1111,2025-04-05,1,LeBron James,14,Los Angeles Lakers,False,9,Detroit Pistons,40,4,7,4,3,0.456,34.6
+1112,2025-02-21,3,Jason Tatum,2,Boston Celtics,True,5,Chicago Bulls,15,14,3,0,0,0.541,33.7
+1113,2025-03-27,4,Jaylen Brown,2,Boston Celtics,True,13,LA Clippers,10,4,9,1,1,0.59,33.1
+1114,2025-02-12,2,Stephen Curry,10,Golden State Warriors,False,16,Miami Heat,35,11,10,5,0,0.478,34.1
+1115,2025-01-28,4,Jaylen Brown,2,Boston Celtics,True,13,LA Clippers,38,7,9,4,1,0.417,30.5
+1116,2025-03-04,1,LeBron James,14,Los Angeles Lakers,False,15,Memphis Grizzlies,26,15,4,1,3,0.571,30.8
+1117,2025-01-06,6,Luka Doncic,14,Los Angeles Lakers,False,16,Miami Heat,24,3,6,1,0,0.521,33.4
+1118,2024-10-24,7,Kyrie Irving,7,Dallas Mavericks,True,5,Chicago Bulls,16,13,7,3,2,0.476,35.4
+1119,2024-11-27,3,Jason Tatum,2,Boston Celtics,False,11,Houston Rockets,20,6,8,4,1,0.451,35.2
+1120,2025-03-08,9,Kawhi Leonard,13,LA Clippers,True,30,Washington Wizards,15,7,5,4,3,0.512,40.8
+1121,2025-03-21,10,Russell Westbrook,8,Denver Nuggets,False,24,Phoenix Suns,19,15,5,5,2,0.426,34.7
+1122,2025-02-02,1,LeBron James,14,Los Angeles Lakers,False,24,Phoenix Suns,31,12,10,5,2,0.6,30.9
+1123,2025-02-07,1,LeBron James,14,Los Angeles Lakers,True,24,Phoenix Suns,13,12,10,3,0,0.522,36.6
+1124,2024-11-05,3,Jason Tatum,2,Boston Celtics,False,19,New Orleans Pelicans,28,12,5,1,3,0.591,38.8
+1125,2025-02-16,8,Anthony Davis,7,Dallas Mavericks,False,14,Los Angeles Lakers,30,3,9,5,3,0.453,32.6
+1126,2024-10-27,1,LeBron James,14,Los Angeles Lakers,True,12,Indiana Pacers,14,10,6,2,1,0.541,38.1
+1127,2025-01-01,8,Anthony Davis,7,Dallas Mavericks,True,9,Detroit Pistons,27,15,4,4,1,0.494,35.0
+1128,2025-03-22,9,Kawhi Leonard,13,LA Clippers,False,17,Milwaukee Bucks,20,3,6,2,0,0.439,38.6
+1129,2024-11-17,10,Russell Westbrook,8,Denver Nuggets,True,5,Chicago Bulls,28,12,5,1,1,0.582,33.3
+1130,2025-01-13,3,Jason Tatum,2,Boston Celtics,True,10,Golden State Warriors,19,8,5,2,2,0.492,36.0
+1131,2025-01-30,3,Jason Tatum,2,Boston Celtics,True,11,Houston Rockets,19,10,4,3,1,0.534,33.7
+1132,2024-11-11,5,Nikola Jokic,8,Denver Nuggets,False,12,Indiana Pacers,28,4,6,2,1,0.502,33.4
+1133,2024-12-03,1,LeBron James,14,Los Angeles Lakers,True,29,Utah Jazz,36,10,6,2,0,0.568,33.5
+1134,2024-12-05,3,Jason Tatum,2,Boston Celtics,False,14,Los Angeles Lakers,27,12,7,5,3,0.481,34.1
+1135,2024-12-16,1,LeBron James,14,Los Angeles Lakers,True,21,Oklahoma City Thunder,20,11,3,2,3,0.462,31.8
+1136,2024-10-08,3,Jason Tatum,2,Boston Celtics,True,3,Brooklyn Nets,19,10,7,3,1,0.519,36.1
+1137,2025-03-25,4,Jaylen Brown,2,Boston Celtics,False,26,Sacramento Kings,20,13,10,5,1,0.436,33.1
+1138,2025-01-09,3,Jason Tatum,2,Boston Celtics,True,11,Houston Rockets,40,13,4,3,3,0.55,33.7
+1139,2025-02-07,2,Stephen Curry,10,Golden State Warriors,True,26,Sacramento Kings,36,10,5,0,2,0.539,31.8
+1140,2024-11-29,10,Russell Westbrook,8,Denver Nuggets,False,18,Minnesota Timberwolves,13,13,9,5,2,0.495,37.9
+1141,2025-02-09,6,Luka Doncic,14,Los Angeles Lakers,False,17,Milwaukee Bucks,35,6,5,2,3,0.452,35.2
+1142,2024-11-08,8,Anthony Davis,7,Dallas Mavericks,False,21,Oklahoma City Thunder,11,14,4,4,3,0.597,32.6
+1143,2025-02-01,9,Kawhi Leonard,13,LA Clippers,True,26,Sacramento Kings,40,12,4,3,1,0.445,39.9
+1144,2024-11-30,3,Jason Tatum,2,Boston Celtics,True,10,Golden State Warriors,28,15,8,0,1,0.564,36.7
+1145,2024-10-22,6,Luka Doncic,14,Los Angeles Lakers,False,17,Milwaukee Bucks,18,13,10,0,1,0.403,34.0
+1146,2025-03-20,2,Stephen Curry,10,Golden State Warriors,False,13,LA Clippers,12,11,7,2,1,0.556,36.9
+1147,2025-04-01,7,Kyrie Irving,7,Dallas Mavericks,False,4,Charlotte Hornets,13,8,5,3,2,0.448,40.8
+1148,2024-11-24,8,Anthony Davis,7,Dallas Mavericks,True,5,Chicago Bulls,30,3,4,3,2,0.481,32.0
+1149,2025-03-20,1,LeBron James,14,Los Angeles Lakers,True,28,Toronto Raptors,35,14,5,4,2,0.53,31.2
+1150,2025-03-23,8,Anthony Davis,7,Dallas Mavericks,True,30,Washington Wizards,15,13,10,0,2,0.594,31.9
+1151,2025-01-18,4,Jaylen Brown,2,Boston Celtics,False,5,Chicago Bulls,31,7,5,4,2,0.6,30.8
+1152,2025-01-28,7,Kyrie Irving,7,Dallas Mavericks,False,3,Brooklyn Nets,32,9,8,5,3,0.422,38.9
+1153,2024-12-19,8,Anthony Davis,7,Dallas Mavericks,True,22,Orlando Magic,23,4,6,5,0,0.488,33.6
+1154,2025-03-10,4,Jaylen Brown,2,Boston Celtics,True,25,Portland Trail Blazers,32,3,7,1,1,0.482,35.0
+1155,2025-03-10,1,LeBron James,14,Los Angeles Lakers,False,10,Golden State Warriors,16,4,7,5,0,0.536,30.1
+1156,2024-10-01,7,Kyrie Irving,7,Dallas Mavericks,False,4,Charlotte Hornets,23,3,6,1,2,0.4,30.6
+1157,2024-09-30,6,Luka Doncic,14,Los Angeles Lakers,True,6,Cleveland Cavaliers,23,3,3,4,0,0.516,30.4
+1158,2025-02-16,5,Nikola Jokic,8,Denver Nuggets,True,30,Washington Wizards,13,13,9,0,0,0.501,35.1
+1159,2025-03-04,8,Anthony Davis,7,Dallas Mavericks,True,21,Oklahoma City Thunder,36,9,7,4,2,0.445,40.6
+1160,2025-02-06,10,Russell Westbrook,8,Denver Nuggets,False,2,Boston Celtics,19,11,4,3,1,0.561,37.8
+1161,2024-12-29,8,Anthony Davis,7,Dallas Mavericks,True,22,Orlando Magic,23,8,4,2,2,0.538,38.2
+1162,2024-11-06,8,Anthony Davis,7,Dallas Mavericks,False,15,Memphis Grizzlies,16,15,7,1,0,0.499,36.0
+1163,2025-01-18,4,Jaylen Brown,2,Boston Celtics,False,12,Indiana Pacers,22,7,10,1,2,0.489,31.2
+1164,2024-12-17,10,Russell Westbrook,8,Denver Nuggets,False,17,Milwaukee Bucks,30,14,10,0,1,0.532,39.6
+1165,2025-02-03,1,LeBron James,14,Los Angeles Lakers,True,21,Oklahoma City Thunder,17,4,5,4,1,0.413,30.4
+1166,2025-03-31,6,Luka Doncic,14,Los Angeles Lakers,False,19,New Orleans Pelicans,32,15,4,5,2,0.547,39.8
+1167,2024-12-20,4,Jaylen Brown,2,Boston Celtics,False,10,Golden State Warriors,26,11,4,2,2,0.501,38.4
+1168,2024-12-15,1,LeBron James,14,Los Angeles Lakers,True,17,Milwaukee Bucks,15,12,4,1,0,0.535,30.7
+1169,2025-01-21,9,Kawhi Leonard,13,LA Clippers,True,24,Phoenix Suns,24,14,5,0,2,0.53,30.2
+1170,2025-01-21,4,Jaylen Brown,2,Boston Celtics,True,17,Milwaukee Bucks,12,13,3,5,1,0.451,34.3
+1171,2024-10-09,8,Anthony Davis,7,Dallas Mavericks,False,10,Golden State Warriors,13,10,4,1,1,0.518,36.1
+1172,2024-10-10,4,Jaylen Brown,2,Boston Celtics,False,24,Phoenix Suns,16,13,10,1,3,0.551,32.0
+1173,2025-03-01,3,Jason Tatum,2,Boston Celtics,False,16,Miami Heat,12,3,4,4,0,0.578,40.4
+1174,2025-01-02,4,Jaylen Brown,2,Boston Celtics,False,11,Houston Rockets,30,4,5,3,1,0.454,38.1
+1175,2025-02-25,6,Luka Doncic,14,Los Angeles Lakers,False,19,New Orleans Pelicans,25,15,8,3,3,0.537,39.3
+1176,2025-02-08,10,Russell Westbrook,8,Denver Nuggets,True,4,Charlotte Hornets,11,15,5,4,3,0.522,31.3
+1177,2024-10-23,4,Jaylen Brown,2,Boston Celtics,True,27,San Antonio Spurs,23,11,3,5,1,0.454,33.8
+1178,2025-04-04,4,Jaylen Brown,2,Boston Celtics,False,11,Houston Rockets,40,3,5,1,1,0.504,33.8
+1179,2025-03-06,4,Jaylen Brown,2,Boston Celtics,False,24,Phoenix Suns,34,13,5,1,2,0.582,39.2
+1180,2024-09-27,1,LeBron James,14,Los Angeles Lakers,True,20,New York Knicks,12,8,6,1,1,0.476,35.0
+1181,2025-02-22,9,Kawhi Leonard,13,LA Clippers,False,18,Minnesota Timberwolves,26,14,10,3,3,0.406,39.4
+1182,2024-12-16,3,Jason Tatum,2,Boston Celtics,False,11,Houston Rockets,23,10,4,2,1,0.464,30.1
+1183,2025-03-17,2,Stephen Curry,10,Golden State Warriors,False,11,Houston Rockets,20,11,3,1,1,0.511,30.9
+1184,2024-10-12,2,Stephen Curry,10,Golden State Warriors,True,2,Boston Celtics,35,7,5,2,3,0.441,33.3
+1185,2024-11-28,6,Luka Doncic,14,Los Angeles Lakers,True,24,Phoenix Suns,15,5,10,1,3,0.553,40.2
+1186,2025-04-04,10,Russell Westbrook,8,Denver Nuggets,False,13,LA Clippers,33,10,7,2,2,0.404,36.3
+1187,2024-11-05,1,LeBron James,14,Los Angeles Lakers,True,9,Detroit Pistons,26,7,7,3,1,0.564,40.0
+1188,2024-12-02,9,Kawhi Leonard,13,LA Clippers,True,3,Brooklyn Nets,11,3,10,2,0,0.46,31.4
+1189,2024-11-13,6,Luka Doncic,14,Los Angeles Lakers,False,1,Atlanta Hawks,35,5,6,0,0,0.443,31.7
+1190,2025-01-04,7,Kyrie Irving,7,Dallas Mavericks,True,21,Oklahoma City Thunder,20,4,8,4,3,0.521,40.5
+1191,2024-11-17,2,Stephen Curry,10,Golden State Warriors,True,22,Orlando Magic,22,14,10,4,0,0.557,35.5
+1192,2025-02-08,7,Kyrie Irving,7,Dallas Mavericks,True,1,Atlanta Hawks,40,13,4,1,1,0.484,33.6
+1193,2025-01-15,3,Jason Tatum,2,Boston Celtics,True,4,Charlotte Hornets,38,8,5,4,1,0.48,34.8
+1194,2025-03-14,1,LeBron James,14,Los Angeles Lakers,False,15,Memphis Grizzlies,17,12,8,4,2,0.471,33.8
+1195,2025-04-05,9,Kawhi Leonard,13,LA Clippers,True,19,New Orleans Pelicans,15,10,10,0,2,0.466,30.6
+1196,2024-10-30,3,Jason Tatum,2,Boston Celtics,False,22,Orlando Magic,19,11,7,1,3,0.461,35.8
+1197,2025-04-01,7,Kyrie Irving,7,Dallas Mavericks,False,17,Milwaukee Bucks,40,3,4,1,1,0.461,38.4
+1198,2024-10-31,2,Stephen Curry,10,Golden State Warriors,True,9,Detroit Pistons,31,12,7,2,1,0.509,36.6
+1199,2025-02-15,9,Kawhi Leonard,13,LA Clippers,True,25,Portland Trail Blazers,19,12,8,4,3,0.401,36.7
+1200,2024-12-23,8,Anthony Davis,7,Dallas Mavericks,True,25,Portland Trail Blazers,21,6,4,4,2,0.41,39.7
+1201,2025-03-21,2,Stephen Curry,10,Golden State Warriors,False,16,Miami Heat,10,8,5,4,3,0.595,38.6
+1202,2024-11-10,6,Luka Doncic,14,Los Angeles Lakers,False,28,Toronto Raptors,14,12,6,3,1,0.468,35.9
+1203,2024-12-14,3,Jason Tatum,2,Boston Celtics,True,1,Atlanta Hawks,26,13,9,2,2,0.423,36.5
+1204,2025-01-28,8,Anthony Davis,7,Dallas Mavericks,True,22,Orlando Magic,32,4,4,0,2,0.514,36.0
+1205,2024-10-12,8,Anthony Davis,7,Dallas Mavericks,False,23,Philadelphia 76ers,39,3,5,3,2,0.572,30.3
+1206,2024-11-14,3,Jason Tatum,2,Boston Celtics,False,28,Toronto Raptors,33,9,5,4,3,0.58,40.6
+1207,2024-10-13,6,Luka Doncic,14,Los Angeles Lakers,True,22,Orlando Magic,24,7,8,3,2,0.556,34.3
+1208,2025-01-14,6,Luka Doncic,14,Los Angeles Lakers,False,26,Sacramento Kings,28,14,9,3,1,0.568,40.0
+1209,2024-11-04,3,Jason Tatum,2,Boston Celtics,False,27,San Antonio Spurs,38,5,4,4,3,0.551,39.7
+1210,2025-02-08,6,Luka Doncic,14,Los Angeles Lakers,False,11,Houston Rockets,24,5,6,1,3,0.479,32.6
+1211,2025-02-20,4,Jaylen Brown,2,Boston Celtics,False,1,Atlanta Hawks,17,12,4,2,3,0.554,32.6
+1212,2025-03-18,5,Nikola Jokic,8,Denver Nuggets,False,21,Oklahoma City Thunder,11,12,5,3,3,0.494,36.5
+1213,2024-12-11,6,Luka Doncic,14,Los Angeles Lakers,True,25,Portland Trail Blazers,19,10,3,2,1,0.498,36.8
+1214,2024-10-29,6,Luka Doncic,14,Los Angeles Lakers,True,7,Dallas Mavericks,40,9,5,1,0,0.441,35.8
+1215,2025-02-15,10,Russell Westbrook,8,Denver Nuggets,False,16,Miami Heat,27,8,8,1,2,0.45,32.6
+1216,2024-11-27,6,Luka Doncic,14,Los Angeles Lakers,False,30,Washington Wizards,15,15,7,4,0,0.404,34.2
+1217,2024-09-23,2,Stephen Curry,10,Golden State Warriors,True,22,Orlando Magic,21,9,10,0,3,0.524,30.4
+1218,2024-09-28,6,Luka Doncic,14,Los Angeles Lakers,False,2,Boston Celtics,36,12,7,1,0,0.527,31.5
+1219,2024-11-04,2,Stephen Curry,10,Golden State Warriors,False,16,Miami Heat,12,13,10,4,1,0.51,31.3
+1220,2025-02-26,8,Anthony Davis,7,Dallas Mavericks,True,9,Detroit Pistons,15,3,6,3,0,0.437,40.2
+1221,2025-02-10,1,LeBron James,14,Los Angeles Lakers,False,16,Miami Heat,33,15,10,3,3,0.444,34.5
+1222,2024-10-29,1,LeBron James,14,Los Angeles Lakers,False,1,Atlanta Hawks,16,10,3,5,2,0.473,33.9
+1223,2024-10-25,10,Russell Westbrook,8,Denver Nuggets,True,3,Brooklyn Nets,19,5,7,0,1,0.519,38.4
+1224,2025-03-03,2,Stephen Curry,10,Golden State Warriors,True,23,Philadelphia 76ers,22,7,6,1,0,0.508,32.0
+1225,2025-02-06,6,Luka Doncic,14,Los Angeles Lakers,False,27,San Antonio Spurs,30,6,3,5,1,0.436,34.4
+1226,2024-10-26,2,Stephen Curry,10,Golden State Warriors,True,19,New Orleans Pelicans,32,8,5,4,0,0.461,30.6
+1227,2025-02-25,8,Anthony Davis,7,Dallas Mavericks,False,11,Houston Rockets,13,5,5,1,0,0.461,33.0
+1228,2025-03-21,4,Jaylen Brown,2,Boston Celtics,True,14,Los Angeles Lakers,21,9,10,5,2,0.515,31.7
+1229,2024-11-16,7,Kyrie Irving,7,Dallas Mavericks,True,26,Sacramento Kings,16,11,4,3,0,0.555,39.8
+1230,2025-02-19,4,Jaylen Brown,2,Boston Celtics,True,26,Sacramento Kings,20,10,8,5,2,0.405,35.1
+1231,2025-01-16,6,Luka Doncic,14,Los Angeles Lakers,True,17,Milwaukee Bucks,11,14,3,2,3,0.557,30.4
+1232,2025-02-17,6,Luka Doncic,14,Los Angeles Lakers,False,26,Sacramento Kings,11,3,5,0,2,0.483,35.2
+1233,2025-01-16,9,Kawhi Leonard,13,LA Clippers,False,30,Washington Wizards,20,3,7,2,1,0.53,40.2
+1234,2025-01-05,7,Kyrie Irving,7,Dallas Mavericks,False,26,Sacramento Kings,39,12,5,0,0,0.457,31.2
+1235,2025-01-15,9,Kawhi Leonard,13,LA Clippers,True,21,Oklahoma City Thunder,17,3,5,1,0,0.438,31.1
+1236,2025-03-15,1,LeBron James,14,Los Angeles Lakers,False,19,New Orleans Pelicans,40,15,3,0,1,0.512,31.7
+1237,2024-10-06,6,Luka Doncic,14,Los Angeles Lakers,True,9,Detroit Pistons,31,15,3,2,0,0.56,37.3
+1238,2025-01-25,2,Stephen Curry,10,Golden State Warriors,False,28,Toronto Raptors,37,9,8,2,1,0.561,30.1
+1239,2025-02-01,1,LeBron James,14,Los Angeles Lakers,False,20,New York Knicks,15,4,7,0,2,0.466,35.7
+1240,2025-03-25,10,Russell Westbrook,8,Denver Nuggets,True,2,Boston Celtics,21,5,7,4,3,0.568,38.8
+1241,2024-12-03,6,Luka Doncic,14,Los Angeles Lakers,True,17,Milwaukee Bucks,35,3,10,5,2,0.553,31.0
+1242,2024-10-26,2,Stephen Curry,10,Golden State Warriors,True,30,Washington Wizards,13,10,3,0,3,0.424,38.0
+1243,2025-02-25,10,Russell Westbrook,8,Denver Nuggets,True,22,Orlando Magic,23,11,7,5,3,0.529,39.1
+1244,2024-12-15,6,Luka Doncic,14,Los Angeles Lakers,True,13,LA Clippers,29,14,4,0,0,0.411,39.7
+1245,2025-04-03,6,Luka Doncic,14,Los Angeles Lakers,True,7,Dallas Mavericks,10,12,8,1,2,0.469,34.6
+1246,2025-03-14,9,Kawhi Leonard,13,LA Clippers,True,28,Toronto Raptors,25,6,9,5,0,0.575,30.2
+1247,2024-10-30,1,LeBron James,14,Los Angeles Lakers,True,7,Dallas Mavericks,37,10,10,0,0,0.421,35.3
+1248,2024-11-25,1,LeBron James,14,Los Angeles Lakers,False,10,Golden State Warriors,23,10,10,0,1,0.403,37.9
+1249,2024-12-19,7,Kyrie Irving,7,Dallas Mavericks,False,9,Detroit Pistons,32,5,7,2,2,0.588,37.7
+1250,2024-10-22,7,Kyrie Irving,7,Dallas Mavericks,True,24,Phoenix Suns,14,14,8,1,1,0.594,30.1
+1251,2024-11-22,8,Anthony Davis,7,Dallas Mavericks,False,13,LA Clippers,39,8,3,0,3,0.408,32.6
+1252,2025-01-23,2,Stephen Curry,10,Golden State Warriors,True,9,Detroit Pistons,32,8,3,3,2,0.545,37.1
+1253,2024-11-11,8,Anthony Davis,7,Dallas Mavericks,False,12,Indiana Pacers,21,10,4,5,1,0.446,31.7
+1254,2025-03-01,3,Jason Tatum,2,Boston Celtics,True,8,Denver Nuggets,15,14,7,4,2,0.45,39.7
+1255,2025-01-29,7,Kyrie Irving,7,Dallas Mavericks,True,3,Brooklyn Nets,35,8,4,5,1,0.598,30.6
+1256,2025-02-19,3,Jason Tatum,2,Boston Celtics,False,7,Dallas Mavericks,21,5,9,0,1,0.45,39.2
+1257,2025-03-07,8,Anthony Davis,7,Dallas Mavericks,False,5,Chicago Bulls,36,6,6,0,3,0.594,39.3
+1258,2025-03-07,2,Stephen Curry,10,Golden State Warriors,True,17,Milwaukee Bucks,32,8,9,0,2,0.525,34.0
+1259,2025-01-02,7,Kyrie Irving,7,Dallas Mavericks,False,24,Phoenix Suns,37,8,3,1,3,0.578,38.2
+1260,2024-12-05,4,Jaylen Brown,2,Boston Celtics,False,20,New York Knicks,37,8,4,3,1,0.467,38.0
+1261,2024-12-14,8,Anthony Davis,7,Dallas Mavericks,False,27,San Antonio Spurs,18,13,5,0,0,0.488,32.6
+1262,2024-10-27,8,Anthony Davis,7,Dallas Mavericks,True,19,New Orleans Pelicans,37,11,5,2,3,0.464,32.2
+1263,2024-11-16,10,Russell Westbrook,8,Denver Nuggets,False,26,Sacramento Kings,40,10,3,5,1,0.563,36.2
+1264,2024-12-26,4,Jaylen Brown,2,Boston Celtics,False,28,Toronto Raptors,36,9,5,4,0,0.432,33.4
+1265,2024-10-05,2,Stephen Curry,10,Golden State Warriors,False,26,Sacramento Kings,26,3,5,5,0,0.455,40.2
+1266,2024-11-06,1,LeBron James,14,Los Angeles Lakers,False,7,Dallas Mavericks,18,7,5,3,3,0.414,39.9
+1267,2025-03-09,6,Luka Doncic,14,Los Angeles Lakers,True,26,Sacramento Kings,29,15,3,4,1,0.416,30.1
+1268,2025-01-08,5,Nikola Jokic,8,Denver Nuggets,True,2,Boston Celtics,16,4,6,4,3,0.479,35.1
+1269,2025-02-05,1,LeBron James,14,Los Angeles Lakers,False,3,Brooklyn Nets,18,4,5,3,2,0.522,34.4
+1270,2024-10-27,9,Kawhi Leonard,13,LA Clippers,False,11,Houston Rockets,20,12,5,4,1,0.49,37.9
+1271,2024-12-08,7,Kyrie Irving,7,Dallas Mavericks,True,8,Denver Nuggets,22,14,4,4,1,0.467,30.7
+1272,2025-03-25,4,Jaylen Brown,2,Boston Celtics,False,23,Philadelphia 76ers,19,7,9,3,0,0.407,36.8
+1273,2024-10-15,5,Nikola Jokic,8,Denver Nuggets,False,15,Memphis Grizzlies,38,12,3,5,3,0.552,36.9
+1274,2024-11-02,10,Russell Westbrook,8,Denver Nuggets,True,24,Phoenix Suns,38,6,7,5,1,0.586,35.0
+1275,2024-10-17,2,Stephen Curry,10,Golden State Warriors,True,12,Indiana Pacers,35,8,7,1,0,0.497,39.6
+1276,2025-01-21,7,Kyrie Irving,7,Dallas Mavericks,False,17,Milwaukee Bucks,29,3,9,0,1,0.452,30.9
+1277,2025-03-07,5,Nikola Jokic,8,Denver Nuggets,True,29,Utah Jazz,36,8,10,4,3,0.483,37.3
+1278,2025-04-06,4,Jaylen Brown,2,Boston Celtics,True,25,Portland Trail Blazers,12,14,10,1,3,0.502,39.6
+1279,2024-12-03,10,Russell Westbrook,8,Denver Nuggets,False,19,New Orleans Pelicans,22,8,8,0,3,0.579,31.2
+1280,2024-11-19,10,Russell Westbrook,8,Denver Nuggets,False,17,Milwaukee Bucks,33,11,7,0,1,0.586,35.3
+1281,2024-11-05,2,Stephen Curry,10,Golden State Warriors,False,5,Chicago Bulls,21,15,7,5,3,0.454,34.8
+1282,2024-12-14,3,Jason Tatum,2,Boston Celtics,False,26,Sacramento Kings,10,12,8,0,2,0.56,33.5
+1283,2024-12-11,1,LeBron James,14,Los Angeles Lakers,True,28,Toronto Raptors,20,8,3,4,2,0.567,33.9
+1284,2024-10-18,1,LeBron James,14,Los Angeles Lakers,False,22,Orlando Magic,19,3,6,0,3,0.588,30.2
+1285,2024-09-29,5,Nikola Jokic,8,Denver Nuggets,True,28,Toronto Raptors,28,8,5,1,2,0.573,32.6
+1286,2025-01-16,1,LeBron James,14,Los Angeles Lakers,False,29,Utah Jazz,18,7,7,0,3,0.461,33.2
+1287,2025-01-16,6,Luka Doncic,14,Los Angeles Lakers,True,23,Philadelphia 76ers,38,9,6,0,1,0.524,35.6
+1288,2025-01-06,7,Kyrie Irving,7,Dallas Mavericks,True,26,Sacramento Kings,36,14,6,5,0,0.564,39.3
+1289,2025-02-26,7,Kyrie Irving,7,Dallas Mavericks,True,16,Miami Heat,12,13,9,4,2,0.497,34.2
+1290,2024-11-01,8,Anthony Davis,7,Dallas Mavericks,False,11,Houston Rockets,21,3,3,0,2,0.448,30.7
+1291,2025-02-20,5,Nikola Jokic,8,Denver Nuggets,False,15,Memphis Grizzlies,37,8,5,2,2,0.41,33.7
+1292,2025-01-09,5,Nikola Jokic,8,Denver Nuggets,True,28,Toronto Raptors,24,4,10,3,2,0.5,37.5
+1293,2024-10-14,6,Luka Doncic,14,Los Angeles Lakers,False,24,Phoenix Suns,12,14,6,5,3,0.498,35.0
+1294,2025-02-05,1,LeBron James,14,Los Angeles Lakers,False,11,Houston Rockets,37,4,9,2,1,0.512,38.2
+1295,2024-11-25,6,Luka Doncic,14,Los Angeles Lakers,True,10,Golden State Warriors,27,15,6,2,2,0.497,33.0
+1296,2025-04-03,2,Stephen Curry,10,Golden State Warriors,False,9,Detroit Pistons,32,11,8,4,2,0.514,37.1
+1297,2024-12-28,10,Russell Westbrook,8,Denver Nuggets,True,22,Orlando Magic,22,12,10,0,1,0.489,34.8
+1298,2024-11-24,2,Stephen Curry,10,Golden State Warriors,False,27,San Antonio Spurs,16,12,8,1,1,0.532,34.7
+1299,2024-10-27,9,Kawhi Leonard,13,LA Clippers,True,3,Brooklyn Nets,38,14,7,2,1,0.433,38.0
+1300,2025-01-30,9,Kawhi Leonard,13,LA Clippers,True,8,Denver Nuggets,30,6,5,3,2,0.446,31.1
+1301,2025-01-31,5,Nikola Jokic,8,Denver Nuggets,True,1,Atlanta Hawks,40,4,3,4,0,0.585,30.1
+1302,2025-02-25,4,Jaylen Brown,2,Boston Celtics,False,8,Denver Nuggets,31,12,5,5,3,0.423,31.9
+1303,2024-11-26,6,Luka Doncic,14,Los Angeles Lakers,True,16,Miami Heat,40,6,5,0,3,0.541,36.5
+1304,2025-01-05,1,LeBron James,14,Los Angeles Lakers,False,18,Minnesota Timberwolves,38,10,4,5,1,0.5,30.9
+1305,2024-11-17,2,Stephen Curry,10,Golden State Warriors,True,28,Toronto Raptors,31,14,3,1,3,0.556,30.8
+1306,2025-04-06,7,Kyrie Irving,7,Dallas Mavericks,True,25,Portland Trail Blazers,37,8,9,2,3,0.471,38.5
+1307,2025-03-03,10,Russell Westbrook,8,Denver Nuggets,False,24,Phoenix Suns,40,10,7,3,3,0.593,35.1
+1308,2024-12-02,7,Kyrie Irving,7,Dallas Mavericks,False,16,Miami Heat,10,9,6,2,0,0.548,36.5
+1309,2025-02-14,5,Nikola Jokic,8,Denver Nuggets,False,11,Houston Rockets,25,14,8,2,0,0.51,38.6
+1310,2025-03-01,6,Luka Doncic,14,Los Angeles Lakers,True,28,Toronto Raptors,18,5,6,0,1,0.573,34.9
+1311,2024-11-22,6,Luka Doncic,14,Los Angeles Lakers,True,12,Indiana Pacers,27,12,7,2,1,0.52,39.0
+1312,2024-10-07,9,Kawhi Leonard,13,LA Clippers,False,23,Philadelphia 76ers,16,8,5,0,3,0.516,34.4
+1313,2025-04-04,6,Luka Doncic,14,Los Angeles Lakers,False,27,San Antonio Spurs,25,13,10,5,3,0.487,35.0
+1314,2025-01-04,1,LeBron James,14,Los Angeles Lakers,True,10,Golden State Warriors,34,14,7,0,0,0.407,31.2
+1315,2024-10-09,3,Jason Tatum,2,Boston Celtics,False,7,Dallas Mavericks,32,10,3,5,1,0.6,30.9
+1316,2025-03-24,10,Russell Westbrook,8,Denver Nuggets,True,15,Memphis Grizzlies,33,7,5,4,1,0.522,30.6
+1317,2025-01-31,10,Russell Westbrook,8,Denver Nuggets,False,20,New York Knicks,17,3,9,5,3,0.489,30.3
+1318,2024-12-23,7,Kyrie Irving,7,Dallas Mavericks,True,17,Milwaukee Bucks,34,4,4,1,3,0.502,34.3
+1319,2025-02-08,9,Kawhi Leonard,13,LA Clippers,True,6,Cleveland Cavaliers,34,7,9,3,2,0.539,30.5
+1320,2024-12-11,10,Russell Westbrook,8,Denver Nuggets,True,30,Washington Wizards,39,13,7,2,3,0.529,33.7
+1321,2025-02-14,6,Luka Doncic,14,Los Angeles Lakers,True,25,Portland Trail Blazers,22,11,6,2,3,0.401,38.7
+1322,2025-04-04,8,Anthony Davis,7,Dallas Mavericks,False,21,Oklahoma City Thunder,30,8,7,4,0,0.448,39.7
+1323,2024-10-12,3,Jason Tatum,2,Boston Celtics,True,30,Washington Wizards,36,4,8,2,3,0.595,30.7
+1324,2025-01-16,10,Russell Westbrook,8,Denver Nuggets,True,15,Memphis Grizzlies,31,5,5,4,0,0.573,32.4
+1325,2025-03-12,6,Luka Doncic,14,Los Angeles Lakers,True,29,Utah Jazz,14,5,8,2,2,0.592,39.3
+1326,2025-01-30,4,Jaylen Brown,2,Boston Celtics,True,7,Dallas Mavericks,37,13,6,4,0,0.533,38.3
+1327,2025-01-07,5,Nikola Jokic,8,Denver Nuggets,True,7,Dallas Mavericks,18,13,6,5,0,0.504,35.7
+1328,2025-02-06,5,Nikola Jokic,8,Denver Nuggets,True,3,Brooklyn Nets,18,6,10,4,1,0.427,35.4
+1329,2025-04-03,5,Nikola Jokic,8,Denver Nuggets,True,15,Memphis Grizzlies,10,3,4,4,1,0.471,37.9
+1330,2025-01-11,7,Kyrie Irving,7,Dallas Mavericks,True,17,Milwaukee Bucks,13,4,4,0,3,0.481,38.2
+1331,2024-11-30,9,Kawhi Leonard,13,LA Clippers,False,7,Dallas Mavericks,15,3,3,3,3,0.525,40.8
+1332,2024-12-15,10,Russell Westbrook,8,Denver Nuggets,True,4,Charlotte Hornets,18,7,5,5,0,0.436,35.8
+1333,2024-11-26,10,Russell Westbrook,8,Denver Nuggets,True,7,Dallas Mavericks,26,10,5,3,2,0.536,33.3
+1334,2024-11-28,9,Kawhi Leonard,13,LA Clippers,True,28,Toronto Raptors,19,14,7,1,3,0.569,32.1
+1335,2024-12-20,6,Luka Doncic,14,Los Angeles Lakers,True,4,Charlotte Hornets,30,13,6,2,1,0.586,37.0
+1336,2025-02-01,3,Jason Tatum,2,Boston Celtics,True,7,Dallas Mavericks,32,11,6,0,3,0.48,34.4
+1337,2024-12-02,4,Jaylen Brown,2,Boston Celtics,False,29,Utah Jazz,40,15,4,2,0,0.515,35.4
+1338,2024-11-30,10,Russell Westbrook,8,Denver Nuggets,True,3,Brooklyn Nets,29,5,7,0,1,0.494,39.2
+1339,2025-03-30,10,Russell Westbrook,8,Denver Nuggets,False,14,Los Angeles Lakers,27,8,3,0,0,0.52,39.8
+1340,2025-01-30,7,Kyrie Irving,7,Dallas Mavericks,False,30,Washington Wizards,35,10,8,3,2,0.512,30.1
+1341,2025-03-17,9,Kawhi Leonard,13,LA Clippers,False,5,Chicago Bulls,32,14,9,0,1,0.468,31.0
+1342,2025-01-29,9,Kawhi Leonard,13,LA Clippers,True,12,Indiana Pacers,33,5,10,1,0,0.449,37.2
+1343,2024-09-26,1,LeBron James,14,Los Angeles Lakers,True,9,Detroit Pistons,28,5,7,1,3,0.419,38.0
+1344,2025-03-13,6,Luka Doncic,14,Los Angeles Lakers,False,8,Denver Nuggets,25,7,8,3,1,0.571,34.8
+1345,2024-10-11,1,LeBron James,14,Los Angeles Lakers,True,5,Chicago Bulls,31,7,8,2,3,0.593,30.2
+1346,2025-02-17,8,Anthony Davis,7,Dallas Mavericks,False,27,San Antonio Spurs,40,4,9,3,2,0.599,31.2
+1347,2025-02-06,9,Kawhi Leonard,13,LA Clippers,True,19,New Orleans Pelicans,33,13,8,1,1,0.533,38.8
+1348,2024-12-07,10,Russell Westbrook,8,Denver Nuggets,True,5,Chicago Bulls,31,3,4,0,0,0.412,36.7
+1349,2024-11-19,2,Stephen Curry,10,Golden State Warriors,False,21,Oklahoma City Thunder,22,4,9,3,2,0.455,38.6
+1350,2024-11-29,5,Nikola Jokic,8,Denver Nuggets,False,29,Utah Jazz,12,10,5,5,3,0.578,36.8
+1351,2024-11-07,8,Anthony Davis,7,Dallas Mavericks,False,23,Philadelphia 76ers,14,9,6,0,2,0.466,31.3
+1352,2024-10-17,7,Kyrie Irving,7,Dallas Mavericks,True,2,Boston Celtics,40,10,10,2,3,0.593,30.3
+1353,2025-03-24,3,Jason Tatum,2,Boston Celtics,False,15,Memphis Grizzlies,25,12,4,0,3,0.56,32.8
+1354,2025-01-08,3,Jason Tatum,2,Boston Celtics,True,6,Cleveland Cavaliers,14,6,10,4,2,0.556,40.6
+1355,2024-12-16,10,Russell Westbrook,8,Denver Nuggets,True,16,Miami Heat,27,12,5,2,2,0.516,31.2
+1356,2025-02-27,1,LeBron James,14,Los Angeles Lakers,True,24,Phoenix Suns,31,7,10,2,2,0.492,30.7
+1357,2025-01-27,7,Kyrie Irving,7,Dallas Mavericks,False,22,Orlando Magic,33,9,4,3,2,0.489,34.5
+1358,2024-10-12,3,Jason Tatum,2,Boston Celtics,True,10,Golden State Warriors,25,11,10,2,2,0.481,34.5
+1359,2025-03-19,9,Kawhi Leonard,13,LA Clippers,False,6,Cleveland Cavaliers,36,12,7,2,0,0.48,31.6
+1360,2025-04-05,3,Jason Tatum,2,Boston Celtics,True,30,Washington Wizards,21,13,4,0,0,0.432,40.2
+1361,2025-02-20,10,Russell Westbrook,8,Denver Nuggets,True,9,Detroit Pistons,33,8,7,5,1,0.435,40.0
+1362,2024-10-09,3,Jason Tatum,2,Boston Celtics,False,27,San Antonio Spurs,32,8,6,0,3,0.5,30.0
+1363,2025-04-06,2,Stephen Curry,10,Golden State Warriors,False,27,San Antonio Spurs,23,7,9,3,0,0.592,35.7
+1364,2025-02-28,5,Nikola Jokic,8,Denver Nuggets,False,20,New York Knicks,38,15,4,1,0,0.517,33.6
+1365,2024-12-06,7,Kyrie Irving,7,Dallas Mavericks,False,22,Orlando Magic,29,12,7,4,1,0.452,32.5
+1366,2025-04-06,1,LeBron James,14,Los Angeles Lakers,False,28,Toronto Raptors,29,11,7,5,0,0.489,31.0
+1367,2025-01-22,5,Nikola Jokic,8,Denver Nuggets,True,5,Chicago Bulls,40,4,3,1,0,0.578,39.3
+1368,2024-11-30,8,Anthony Davis,7,Dallas Mavericks,False,6,Cleveland Cavaliers,10,3,10,0,1,0.49,38.8
+1369,2025-01-05,6,Luka Doncic,14,Los Angeles Lakers,True,4,Charlotte Hornets,27,9,8,2,3,0.574,35.0
+1370,2025-02-16,10,Russell Westbrook,8,Denver Nuggets,False,6,Cleveland Cavaliers,33,7,4,4,1,0.483,39.0
+1371,2024-10-14,4,Jaylen Brown,2,Boston Celtics,True,17,Milwaukee Bucks,35,7,5,3,3,0.5,33.5
+1372,2025-02-14,9,Kawhi Leonard,13,LA Clippers,True,8,Denver Nuggets,40,5,10,2,0,0.544,41.0
+1373,2024-09-28,5,Nikola Jokic,8,Denver Nuggets,True,19,New Orleans Pelicans,22,11,9,1,3,0.543,35.9
+1374,2025-03-26,5,Nikola Jokic,8,Denver Nuggets,False,29,Utah Jazz,24,15,7,5,3,0.541,30.4
+1375,2024-12-16,2,Stephen Curry,10,Golden State Warriors,False,27,San Antonio Spurs,17,14,3,3,3,0.497,37.4
+1376,2025-03-04,4,Jaylen Brown,2,Boston Celtics,False,15,Memphis Grizzlies,30,5,8,3,3,0.595,34.4
+1377,2024-11-15,10,Russell Westbrook,8,Denver Nuggets,True,25,Portland Trail Blazers,31,11,8,0,2,0.494,40.1
+1378,2025-01-29,10,Russell Westbrook,8,Denver Nuggets,False,5,Chicago Bulls,38,9,3,0,2,0.505,38.9
+1379,2024-10-25,8,Anthony Davis,7,Dallas Mavericks,False,19,New Orleans Pelicans,16,10,7,4,0,0.588,30.9
+1380,2024-10-29,3,Jason Tatum,2,Boston Celtics,False,12,Indiana Pacers,11,11,9,5,2,0.439,37.9
+1381,2024-12-04,3,Jason Tatum,2,Boston Celtics,False,21,Oklahoma City Thunder,35,13,5,1,3,0.565,31.9
+1382,2025-02-16,8,Anthony Davis,7,Dallas Mavericks,False,13,LA Clippers,10,12,9,4,1,0.475,30.9
+1383,2025-03-30,10,Russell Westbrook,8,Denver Nuggets,True,9,Detroit Pistons,29,3,3,5,1,0.562,38.5
+1384,2024-12-26,10,Russell Westbrook,8,Denver Nuggets,True,27,San Antonio Spurs,15,13,9,4,1,0.547,38.7
+1385,2024-12-02,7,Kyrie Irving,7,Dallas Mavericks,True,30,Washington Wizards,36,9,7,3,3,0.477,32.5
+1386,2025-03-12,2,Stephen Curry,10,Golden State Warriors,True,8,Denver Nuggets,14,9,6,3,3,0.562,35.4
+1387,2025-02-20,8,Anthony Davis,7,Dallas Mavericks,False,5,Chicago Bulls,40,12,4,4,1,0.465,31.9
+1388,2024-11-16,4,Jaylen Brown,2,Boston Celtics,True,13,LA Clippers,31,12,10,1,0,0.542,33.6
+1389,2024-12-15,8,Anthony Davis,7,Dallas Mavericks,False,2,Boston Celtics,24,13,6,3,3,0.492,39.5
+1390,2025-03-23,3,Jason Tatum,2,Boston Celtics,True,20,New York Knicks,28,5,5,0,0,0.545,35.8
+1391,2024-11-04,4,Jaylen Brown,2,Boston Celtics,True,28,Toronto Raptors,37,8,8,3,2,0.581,31.0
+1392,2024-12-15,5,Nikola Jokic,8,Denver Nuggets,True,29,Utah Jazz,14,3,5,3,1,0.575,35.6
+1393,2025-03-26,10,Russell Westbrook,8,Denver Nuggets,True,4,Charlotte Hornets,10,7,8,5,2,0.476,31.2
+1394,2025-03-16,5,Nikola Jokic,8,Denver Nuggets,False,5,Chicago Bulls,24,6,6,0,3,0.505,31.5
+1395,2025-03-10,2,Stephen Curry,10,Golden State Warriors,False,17,Milwaukee Bucks,14,10,7,0,3,0.528,36.3
+1396,2024-09-25,6,Luka Doncic,14,Los Angeles Lakers,True,12,Indiana Pacers,15,3,4,3,2,0.597,34.8
+1397,2024-09-30,4,Jaylen Brown,2,Boston Celtics,True,15,Memphis Grizzlies,13,7,7,2,1,0.538,39.4
+1398,2025-01-20,8,Anthony Davis,7,Dallas Mavericks,False,21,Oklahoma City Thunder,24,15,7,3,1,0.505,38.0
+1399,2025-03-30,2,Stephen Curry,10,Golden State Warriors,True,3,Brooklyn Nets,38,5,10,1,2,0.418,33.9
+1400,2024-12-07,6,Luka Doncic,14,Los Angeles Lakers,True,16,Miami Heat,33,4,8,3,3,0.576,36.0
+1401,2025-02-09,7,Kyrie Irving,7,Dallas Mavericks,True,3,Brooklyn Nets,35,9,3,5,0,0.472,34.3
+1402,2025-02-13,6,Luka Doncic,14,Los Angeles Lakers,False,28,Toronto Raptors,31,6,7,5,1,0.422,40.5
+1403,2024-10-09,1,LeBron James,14,Los Angeles Lakers,False,7,Dallas Mavericks,18,13,4,5,1,0.436,38.7
+1404,2024-12-22,4,Jaylen Brown,2,Boston Celtics,True,11,Houston Rockets,37,11,6,4,2,0.541,35.9
+1405,2024-09-27,6,Luka Doncic,14,Los Angeles Lakers,True,22,Orlando Magic,37,8,9,1,3,0.467,37.0
+1406,2025-02-22,8,Anthony Davis,7,Dallas Mavericks,False,9,Detroit Pistons,35,12,3,3,1,0.49,35.7
+1407,2025-01-25,2,Stephen Curry,10,Golden State Warriors,False,16,Miami Heat,37,14,4,5,3,0.579,36.4
+1408,2024-11-28,5,Nikola Jokic,8,Denver Nuggets,False,17,Milwaukee Bucks,27,4,4,4,2,0.475,36.3
+1409,2025-01-28,10,Russell Westbrook,8,Denver Nuggets,False,4,Charlotte Hornets,16,5,8,4,1,0.564,40.2
+1410,2024-12-01,1,LeBron James,14,Los Angeles Lakers,False,25,Portland Trail Blazers,31,8,7,3,3,0.497,36.8
+1411,2024-11-08,3,Jason Tatum,2,Boston Celtics,True,19,New Orleans Pelicans,27,9,7,3,3,0.556,30.7
+1412,2025-01-22,4,Jaylen Brown,2,Boston Celtics,True,25,Portland Trail Blazers,27,9,3,5,0,0.434,39.7
+1413,2024-09-29,10,Russell Westbrook,8,Denver Nuggets,False,19,New Orleans Pelicans,32,15,5,5,3,0.538,32.0
+1414,2024-12-30,5,Nikola Jokic,8,Denver Nuggets,False,1,Atlanta Hawks,28,11,4,4,2,0.554,38.1
+1415,2024-11-27,5,Nikola Jokic,8,Denver Nuggets,False,22,Orlando Magic,22,14,5,0,0,0.453,39.6
+1416,2025-02-02,8,Anthony Davis,7,Dallas Mavericks,False,15,Memphis Grizzlies,31,15,4,0,2,0.513,36.2
+1417,2025-03-02,8,Anthony Davis,7,Dallas Mavericks,True,12,Indiana Pacers,19,3,4,2,1,0.488,38.7
+1418,2024-11-07,4,Jaylen Brown,2,Boston Celtics,True,10,Golden State Warriors,28,14,3,5,2,0.593,30.4
+1419,2024-09-30,7,Kyrie Irving,7,Dallas Mavericks,True,17,Milwaukee Bucks,27,13,4,4,2,0.457,38.5
+1420,2024-11-18,6,Luka Doncic,14,Los Angeles Lakers,True,29,Utah Jazz,33,13,6,5,0,0.506,34.3
+1421,2025-02-13,10,Russell Westbrook,8,Denver Nuggets,True,16,Miami Heat,29,6,4,2,1,0.512,37.6
+1422,2025-04-05,4,Jaylen Brown,2,Boston Celtics,True,15,Memphis Grizzlies,14,5,5,4,0,0.487,34.6
+1423,2024-12-18,1,LeBron James,14,Los Angeles Lakers,False,23,Philadelphia 76ers,20,6,9,5,1,0.434,30.3
+1424,2024-12-02,10,Russell Westbrook,8,Denver Nuggets,True,7,Dallas Mavericks,14,4,5,4,3,0.514,34.6
+1425,2024-12-31,8,Anthony Davis,7,Dallas Mavericks,False,1,Atlanta Hawks,30,14,5,0,0,0.417,35.9
+1426,2024-12-04,4,Jaylen Brown,2,Boston Celtics,True,10,Golden State Warriors,36,8,3,1,3,0.426,39.2
+1427,2025-01-11,1,LeBron James,14,Los Angeles Lakers,True,4,Charlotte Hornets,26,11,8,4,3,0.566,38.9
+1428,2024-10-07,9,Kawhi Leonard,13,LA Clippers,True,25,Portland Trail Blazers,34,7,8,1,3,0.452,32.3
+1429,2024-11-01,8,Anthony Davis,7,Dallas Mavericks,True,3,Brooklyn Nets,27,6,8,3,2,0.439,35.9
+1430,2024-12-28,2,Stephen Curry,10,Golden State Warriors,True,11,Houston Rockets,29,15,3,3,0,0.481,34.9
+1431,2025-01-14,4,Jaylen Brown,2,Boston Celtics,False,3,Brooklyn Nets,36,14,5,5,0,0.481,35.0
+1432,2025-02-18,2,Stephen Curry,10,Golden State Warriors,True,12,Indiana Pacers,26,4,5,5,3,0.592,40.5
+1433,2025-01-27,1,LeBron James,14,Los Angeles Lakers,False,25,Portland Trail Blazers,12,9,6,5,1,0.528,37.0
+1434,2025-02-08,10,Russell Westbrook,8,Denver Nuggets,False,10,Golden State Warriors,38,4,4,2,2,0.505,39.5
+1435,2024-10-26,6,Luka Doncic,14,Los Angeles Lakers,True,17,Milwaukee Bucks,24,5,9,4,2,0.49,40.3
+1436,2025-03-31,8,Anthony Davis,7,Dallas Mavericks,True,10,Golden State Warriors,19,14,9,4,1,0.5,32.4
+1437,2025-01-13,10,Russell Westbrook,8,Denver Nuggets,True,7,Dallas Mavericks,32,12,4,4,1,0.409,33.6
+1438,2025-03-12,5,Nikola Jokic,8,Denver Nuggets,True,30,Washington Wizards,34,9,3,1,2,0.566,36.6
+1439,2024-12-10,7,Kyrie Irving,7,Dallas Mavericks,False,20,New York Knicks,40,5,8,4,2,0.497,33.8
+1440,2024-11-10,2,Stephen Curry,10,Golden State Warriors,True,15,Memphis Grizzlies,40,6,9,3,2,0.427,33.9
+1441,2024-12-11,7,Kyrie Irving,7,Dallas Mavericks,True,10,Golden State Warriors,33,8,9,4,2,0.534,34.5
+1442,2024-11-04,9,Kawhi Leonard,13,LA Clippers,False,20,New York Knicks,31,11,10,3,3,0.449,30.0
+1443,2024-10-28,6,Luka Doncic,14,Los Angeles Lakers,True,21,Oklahoma City Thunder,21,7,7,3,3,0.556,32.6
+1444,2025-01-14,2,Stephen Curry,10,Golden State Warriors,True,22,Orlando Magic,17,10,9,1,3,0.487,38.1
+1445,2025-03-21,8,Anthony Davis,7,Dallas Mavericks,True,16,Miami Heat,31,8,6,3,3,0.59,39.2
+1446,2025-01-14,9,Kawhi Leonard,13,LA Clippers,True,12,Indiana Pacers,20,9,3,5,3,0.48,34.2
+1447,2025-01-27,4,Jaylen Brown,2,Boston Celtics,False,19,New Orleans Pelicans,24,9,9,1,0,0.539,35.9
+1448,2025-03-09,3,Jason Tatum,2,Boston Celtics,False,17,Milwaukee Bucks,26,11,4,1,3,0.429,34.8
+1449,2024-09-28,3,Jason Tatum,2,Boston Celtics,True,6,Cleveland Cavaliers,34,8,8,5,3,0.476,34.5
+1450,2024-10-15,8,Anthony Davis,7,Dallas Mavericks,False,28,Toronto Raptors,11,14,7,3,2,0.568,33.3
+1451,2024-12-09,8,Anthony Davis,7,Dallas Mavericks,True,10,Golden State Warriors,39,7,5,3,3,0.414,30.4
+1452,2025-01-28,1,LeBron James,14,Los Angeles Lakers,False,12,Indiana Pacers,32,9,7,1,3,0.579,34.0
+1453,2025-01-26,3,Jason Tatum,2,Boston Celtics,True,6,Cleveland Cavaliers,39,4,8,4,3,0.429,37.4
+1454,2024-12-30,9,Kawhi Leonard,13,LA Clippers,True,23,Philadelphia 76ers,10,10,9,3,0,0.543,33.0
+1455,2025-01-04,9,Kawhi Leonard,13,LA Clippers,True,22,Orlando Magic,23,4,6,1,0,0.599,34.9
+1456,2025-04-06,3,Jason Tatum,2,Boston Celtics,True,19,New Orleans Pelicans,27,7,5,4,2,0.574,32.1
+1457,2025-03-13,5,Nikola Jokic,8,Denver Nuggets,True,13,LA Clippers,15,5,9,3,3,0.414,30.9
+1458,2024-10-26,8,Anthony Davis,7,Dallas Mavericks,False,14,Los Angeles Lakers,40,6,7,5,2,0.544,37.4
+1459,2025-01-28,8,Anthony Davis,7,Dallas Mavericks,False,25,Portland Trail Blazers,31,10,10,5,2,0.443,32.7
+1460,2024-09-24,10,Russell Westbrook,8,Denver Nuggets,False,10,Golden State Warriors,35,14,10,1,0,0.582,37.6
+1461,2025-03-29,6,Luka Doncic,14,Los Angeles Lakers,True,10,Golden State Warriors,32,13,6,4,3,0.469,37.4
+1462,2024-11-14,8,Anthony Davis,7,Dallas Mavericks,False,21,Oklahoma City Thunder,39,7,3,2,3,0.443,35.8
+1463,2025-03-04,3,Jason Tatum,2,Boston Celtics,True,29,Utah Jazz,24,15,4,5,3,0.429,34.9
+1464,2024-11-15,4,Jaylen Brown,2,Boston Celtics,True,25,Portland Trail Blazers,30,11,8,5,0,0.408,36.9
+1465,2025-02-18,1,LeBron James,14,Los Angeles Lakers,False,4,Charlotte Hornets,33,3,4,0,1,0.544,38.5
+1466,2024-10-08,10,Russell Westbrook,8,Denver Nuggets,False,30,Washington Wizards,28,3,9,3,1,0.471,33.5
+1467,2025-02-14,6,Luka Doncic,14,Los Angeles Lakers,True,9,Detroit Pistons,23,9,9,2,1,0.534,36.9
+1468,2025-03-06,5,Nikola Jokic,8,Denver Nuggets,True,26,Sacramento Kings,31,7,10,1,3,0.43,33.1
+1469,2025-03-19,10,Russell Westbrook,8,Denver Nuggets,True,11,Houston Rockets,33,15,9,4,2,0.517,34.1
+1470,2024-12-03,9,Kawhi Leonard,13,LA Clippers,False,15,Memphis Grizzlies,29,9,10,1,1,0.408,39.8
+1471,2025-02-28,6,Luka Doncic,14,Los Angeles Lakers,False,21,Oklahoma City Thunder,28,7,7,4,1,0.555,39.8
+1472,2024-09-25,9,Kawhi Leonard,13,LA Clippers,True,11,Houston Rockets,17,4,8,0,2,0.475,38.2
+1473,2025-04-05,10,Russell Westbrook,8,Denver Nuggets,False,26,Sacramento Kings,37,13,4,3,2,0.592,31.2
+1474,2025-01-29,8,Anthony Davis,7,Dallas Mavericks,False,30,Washington Wizards,27,12,10,3,1,0.48,35.7
+1475,2025-03-30,5,Nikola Jokic,8,Denver Nuggets,False,20,New York Knicks,11,10,6,1,2,0.423,35.5
+1476,2024-12-24,2,Stephen Curry,10,Golden State Warriors,True,13,LA Clippers,39,11,8,0,3,0.497,39.0
+1477,2024-09-25,8,Anthony Davis,7,Dallas Mavericks,False,25,Portland Trail Blazers,28,6,3,5,0,0.455,35.2
+1478,2024-10-05,8,Anthony Davis,7,Dallas Mavericks,True,26,Sacramento Kings,26,13,3,2,2,0.511,36.8
+1479,2024-10-24,7,Kyrie Irving,7,Dallas Mavericks,True,8,Denver Nuggets,30,8,8,3,3,0.519,39.1
+1480,2025-02-03,6,Luka Doncic,14,Los Angeles Lakers,True,26,Sacramento Kings,40,14,9,3,1,0.418,31.2
+1481,2024-12-08,10,Russell Westbrook,8,Denver Nuggets,True,14,Los Angeles Lakers,23,14,5,1,1,0.41,35.2
+1482,2025-03-30,5,Nikola Jokic,8,Denver Nuggets,False,4,Charlotte Hornets,31,12,7,4,0,0.498,32.8
+1483,2024-11-30,3,Jason Tatum,2,Boston Celtics,True,7,Dallas Mavericks,19,5,4,3,1,0.533,35.2
+1484,2024-12-15,3,Jason Tatum,2,Boston Celtics,True,12,Indiana Pacers,30,12,8,0,3,0.407,37.0
+1485,2024-11-29,3,Jason Tatum,2,Boston Celtics,False,12,Indiana Pacers,10,11,8,1,1,0.475,40.9
+1486,2025-03-28,9,Kawhi Leonard,13,LA Clippers,True,23,Philadelphia 76ers,12,4,8,0,2,0.575,32.6
+1487,2024-11-19,10,Russell Westbrook,8,Denver Nuggets,False,5,Chicago Bulls,31,6,4,0,2,0.562,38.2
+1488,2025-03-22,10,Russell Westbrook,8,Denver Nuggets,False,10,Golden State Warriors,19,7,8,0,2,0.482,30.3
+1489,2025-03-19,6,Luka Doncic,14,Los Angeles Lakers,False,4,Charlotte Hornets,13,4,5,0,0,0.553,39.9
+1490,2024-12-19,7,Kyrie Irving,7,Dallas Mavericks,True,8,Denver Nuggets,30,8,7,0,3,0.584,34.7
+1491,2024-11-18,7,Kyrie Irving,7,Dallas Mavericks,False,24,Phoenix Suns,33,9,10,3,2,0.514,34.2
+1492,2024-11-07,8,Anthony Davis,7,Dallas Mavericks,False,18,Minnesota Timberwolves,21,13,8,5,1,0.494,34.1
+1493,2024-11-25,9,Kawhi Leonard,13,LA Clippers,False,18,Minnesota Timberwolves,12,7,10,0,0,0.414,40.4
+1494,2025-03-11,4,Jaylen Brown,2,Boston Celtics,False,23,Philadelphia 76ers,12,10,9,0,0,0.583,34.5
+1495,2025-03-30,9,Kawhi Leonard,13,LA Clippers,False,1,Atlanta Hawks,20,12,4,5,3,0.583,31.1
+1496,2024-12-29,7,Kyrie Irving,7,Dallas Mavericks,False,4,Charlotte Hornets,13,15,4,5,0,0.559,30.1
+1497,2024-12-27,2,Stephen Curry,10,Golden State Warriors,False,8,Denver Nuggets,14,14,3,2,3,0.477,30.5
+1498,2024-12-13,2,Stephen Curry,10,Golden State Warriors,True,14,Los Angeles Lakers,28,4,9,5,0,0.565,35.0
+1499,2024-11-01,1,LeBron James,14,Los Angeles Lakers,True,4,Charlotte Hornets,27,12,5,5,0,0.552,35.0
+1500,2025-04-01,9,Kawhi Leonard,13,LA Clippers,False,24,Phoenix Suns,31,3,7,5,1,0.597,40.0
+1501,2025-01-07,9,Kawhi Leonard,13,LA Clippers,True,12,Indiana Pacers,22,7,4,5,1,0.44,35.6
+1502,2024-11-25,8,Anthony Davis,7,Dallas Mavericks,True,2,Boston Celtics,24,5,6,5,1,0.517,32.4
+1503,2025-03-02,3,Jason Tatum,2,Boston Celtics,False,11,Houston Rockets,14,15,5,2,3,0.483,34.0
+1504,2025-04-05,4,Jaylen Brown,2,Boston Celtics,False,5,Chicago Bulls,19,15,3,5,2,0.524,34.4
+1505,2024-12-16,7,Kyrie Irving,7,Dallas Mavericks,True,2,Boston Celtics,21,11,7,0,0,0.511,37.3
+1506,2024-10-30,8,Anthony Davis,7,Dallas Mavericks,False,23,Philadelphia 76ers,25,14,4,3,2,0.472,34.2
+1507,2025-03-28,3,Jason Tatum,2,Boston Celtics,False,22,Orlando Magic,18,7,4,5,1,0.557,35.7
+1508,2025-03-29,6,Luka Doncic,14,Los Angeles Lakers,False,25,Portland Trail Blazers,12,15,4,2,1,0.441,37.7
+1509,2024-12-28,6,Luka Doncic,14,Los Angeles Lakers,False,7,Dallas Mavericks,25,11,7,5,0,0.558,33.0
+1510,2024-12-30,8,Anthony Davis,7,Dallas Mavericks,True,24,Phoenix Suns,29,5,5,4,0,0.524,32.2
+1511,2024-10-16,2,Stephen Curry,10,Golden State Warriors,True,19,New Orleans Pelicans,40,14,7,0,0,0.491,35.6
+1512,2024-11-17,8,Anthony Davis,7,Dallas Mavericks,True,30,Washington Wizards,34,5,8,4,1,0.411,32.7
+1513,2024-10-13,9,Kawhi Leonard,13,LA Clippers,True,6,Cleveland Cavaliers,39,10,6,1,1,0.591,39.8
+1514,2025-01-09,1,LeBron James,14,Los Angeles Lakers,True,13,LA Clippers,33,4,8,0,3,0.539,35.0
+1515,2024-11-28,6,Luka Doncic,14,Los Angeles Lakers,True,12,Indiana Pacers,22,11,3,3,3,0.414,36.2
+1516,2025-04-01,1,LeBron James,14,Los Angeles Lakers,True,17,Milwaukee Bucks,29,10,7,0,1,0.567,34.1
+1517,2025-03-18,2,Stephen Curry,10,Golden State Warriors,True,29,Utah Jazz,39,15,5,1,2,0.443,32.3
+1518,2024-09-29,3,Jason Tatum,2,Boston Celtics,True,18,Minnesota Timberwolves,40,11,9,4,2,0.548,34.3
+1519,2024-12-29,1,LeBron James,14,Los Angeles Lakers,False,28,Toronto Raptors,24,8,3,2,0,0.571,39.5
+1520,2025-01-04,10,Russell Westbrook,8,Denver Nuggets,True,7,Dallas Mavericks,23,5,6,1,2,0.433,39.6
+1521,2024-10-28,5,Nikola Jokic,8,Denver Nuggets,False,6,Cleveland Cavaliers,21,15,7,2,2,0.45,39.4
+1522,2024-12-02,6,Luka Doncic,14,Los Angeles Lakers,False,10,Golden State Warriors,27,4,10,5,2,0.449,39.7
+1523,2024-11-19,9,Kawhi Leonard,13,LA Clippers,False,2,Boston Celtics,34,15,4,5,2,0.562,38.2
+1524,2025-03-11,3,Jason Tatum,2,Boston Celtics,False,23,Philadelphia 76ers,16,11,5,4,3,0.524,30.4
+1525,2024-10-06,1,LeBron James,14,Los Angeles Lakers,False,27,San Antonio Spurs,28,3,8,3,0,0.414,32.7
+1526,2025-01-31,8,Anthony Davis,7,Dallas Mavericks,False,11,Houston Rockets,33,7,4,2,2,0.552,40.2
+1527,2025-03-18,8,Anthony Davis,7,Dallas Mavericks,False,28,Toronto Raptors,20,8,5,2,2,0.525,37.7
+1528,2024-12-23,10,Russell Westbrook,8,Denver Nuggets,False,18,Minnesota Timberwolves,12,8,4,0,1,0.586,36.9
+1529,2024-10-31,5,Nikola Jokic,8,Denver Nuggets,False,23,Philadelphia 76ers,13,4,6,3,1,0.462,36.6
+1530,2024-12-01,7,Kyrie Irving,7,Dallas Mavericks,False,13,LA Clippers,11,9,6,1,3,0.451,30.4
+1531,2024-09-23,1,LeBron James,14,Los Angeles Lakers,False,6,Cleveland Cavaliers,14,8,3,5,2,0.464,33.6
+1532,2024-09-27,3,Jason Tatum,2,Boston Celtics,True,17,Milwaukee Bucks,21,8,7,0,3,0.586,40.7
+1533,2025-01-04,10,Russell Westbrook,8,Denver Nuggets,False,7,Dallas Mavericks,36,10,4,3,1,0.539,31.1
+1534,2024-10-16,2,Stephen Curry,10,Golden State Warriors,True,29,Utah Jazz,36,8,3,5,2,0.549,38.2
+1535,2024-10-21,4,Jaylen Brown,2,Boston Celtics,True,15,Memphis Grizzlies,10,10,9,4,1,0.523,34.6
+1536,2024-09-28,9,Kawhi Leonard,13,LA Clippers,True,12,Indiana Pacers,38,15,10,1,3,0.459,40.0
+1537,2025-03-10,1,LeBron James,14,Los Angeles Lakers,True,24,Phoenix Suns,26,6,6,3,1,0.468,35.6
+1538,2024-10-18,4,Jaylen Brown,2,Boston Celtics,True,24,Phoenix Suns,22,3,9,2,2,0.574,40.5
+1539,2025-03-24,9,Kawhi Leonard,13,LA Clippers,False,23,Philadelphia 76ers,36,7,10,4,3,0.422,34.7
+1540,2025-01-09,9,Kawhi Leonard,13,LA Clippers,False,23,Philadelphia 76ers,37,13,3,1,2,0.417,33.8
+1541,2024-11-12,9,Kawhi Leonard,13,LA Clippers,True,2,Boston Celtics,28,4,9,5,1,0.483,36.6
+1542,2025-03-31,9,Kawhi Leonard,13,LA Clippers,True,24,Phoenix Suns,39,14,3,2,3,0.442,33.4
+1543,2025-01-06,1,LeBron James,14,Los Angeles Lakers,True,9,Detroit Pistons,39,15,8,2,3,0.488,35.9
+1544,2024-10-17,10,Russell Westbrook,8,Denver Nuggets,False,10,Golden State Warriors,30,10,10,3,3,0.494,38.0
+1545,2025-02-03,8,Anthony Davis,7,Dallas Mavericks,False,28,Toronto Raptors,35,7,3,1,2,0.564,33.5
+1546,2025-01-06,2,Stephen Curry,10,Golden State Warriors,True,8,Denver Nuggets,40,8,8,4,3,0.467,39.2
+1547,2025-02-18,4,Jaylen Brown,2,Boston Celtics,True,20,New York Knicks,31,6,3,3,1,0.44,38.3
+1548,2025-01-05,8,Anthony Davis,7,Dallas Mavericks,False,26,Sacramento Kings,34,7,5,3,0,0.533,40.6
+1549,2024-10-19,7,Kyrie Irving,7,Dallas Mavericks,True,30,Washington Wizards,33,11,8,3,1,0.414,30.4
+1550,2025-01-06,4,Jaylen Brown,2,Boston Celtics,False,13,LA Clippers,14,13,8,5,1,0.405,40.7
+1551,2024-11-07,9,Kawhi Leonard,13,LA Clippers,False,17,Milwaukee Bucks,13,11,4,3,3,0.436,31.0
+1552,2024-09-30,4,Jaylen Brown,2,Boston Celtics,True,9,Detroit Pistons,20,10,4,1,0,0.553,34.9
+1553,2024-09-23,9,Kawhi Leonard,13,LA Clippers,True,19,New Orleans Pelicans,11,8,7,4,0,0.581,39.7
+1554,2024-10-17,9,Kawhi Leonard,13,LA Clippers,True,24,Phoenix Suns,14,12,9,5,0,0.475,36.3
+1555,2024-12-18,3,Jason Tatum,2,Boston Celtics,False,24,Phoenix Suns,21,15,3,5,1,0.41,37.2
+1556,2025-01-28,2,Stephen Curry,10,Golden State Warriors,False,19,New Orleans Pelicans,11,6,8,5,0,0.407,32.8
+1557,2025-03-05,7,Kyrie Irving,7,Dallas Mavericks,False,14,Los Angeles Lakers,10,9,3,2,2,0.417,39.4
+1558,2025-03-01,7,Kyrie Irving,7,Dallas Mavericks,False,15,Memphis Grizzlies,20,6,3,0,0,0.448,38.8
+1559,2024-12-30,5,Nikola Jokic,8,Denver Nuggets,False,22,Orlando Magic,38,6,9,2,1,0.533,34.7
+1560,2025-03-14,6,Luka Doncic,14,Los Angeles Lakers,False,8,Denver Nuggets,30,15,4,0,2,0.457,37.3
+1561,2024-10-25,7,Kyrie Irving,7,Dallas Mavericks,False,1,Atlanta Hawks,25,12,5,2,1,0.556,35.8
+1562,2025-02-05,4,Jaylen Brown,2,Boston Celtics,False,9,Detroit Pistons,26,8,6,5,0,0.539,32.6
+1563,2025-01-25,8,Anthony Davis,7,Dallas Mavericks,False,25,Portland Trail Blazers,27,14,7,0,0,0.517,40.4
+1564,2025-04-06,5,Nikola Jokic,8,Denver Nuggets,True,3,Brooklyn Nets,33,15,5,3,0,0.552,38.6
+1565,2025-01-01,7,Kyrie Irving,7,Dallas Mavericks,True,18,Minnesota Timberwolves,27,13,6,0,3,0.458,40.8
+1566,2025-02-13,3,Jason Tatum,2,Boston Celtics,True,26,Sacramento Kings,13,10,7,2,3,0.497,36.0
+1567,2025-02-08,6,Luka Doncic,14,Los Angeles Lakers,True,18,Minnesota Timberwolves,11,11,10,4,0,0.446,38.5
+1568,2024-11-16,9,Kawhi Leonard,13,LA Clippers,True,16,Miami Heat,16,12,5,1,0,0.405,33.2
+1569,2025-01-05,3,Jason Tatum,2,Boston Celtics,True,15,Memphis Grizzlies,22,7,3,1,1,0.565,34.6
+1570,2025-03-25,10,Russell Westbrook,8,Denver Nuggets,True,5,Chicago Bulls,39,8,9,2,2,0.512,30.0
+1571,2025-01-09,2,Stephen Curry,10,Golden State Warriors,True,28,Toronto Raptors,18,15,8,4,1,0.486,37.3
+1572,2025-03-19,6,Luka Doncic,14,Los Angeles Lakers,True,8,Denver Nuggets,36,9,4,4,3,0.538,31.3
+1573,2024-11-27,7,Kyrie Irving,7,Dallas Mavericks,True,9,Detroit Pistons,25,11,6,4,1,0.442,31.6
+1574,2025-02-21,8,Anthony Davis,7,Dallas Mavericks,False,1,Atlanta Hawks,22,10,3,0,2,0.527,34.8
+1575,2025-02-27,1,LeBron James,14,Los Angeles Lakers,False,23,Philadelphia 76ers,25,6,6,4,1,0.465,31.0
+1576,2025-03-08,9,Kawhi Leonard,13,LA Clippers,False,14,Los Angeles Lakers,19,6,9,0,3,0.507,35.5
+1577,2024-09-25,9,Kawhi Leonard,13,LA Clippers,True,6,Cleveland Cavaliers,10,10,5,0,2,0.53,34.6
+1578,2024-12-15,9,Kawhi Leonard,13,LA Clippers,False,28,Toronto Raptors,18,8,3,2,0,0.565,40.0
+1579,2024-12-21,8,Anthony Davis,7,Dallas Mavericks,False,12,Indiana Pacers,12,14,4,2,3,0.526,37.3
+1580,2025-01-10,9,Kawhi Leonard,13,LA Clippers,True,27,San Antonio Spurs,30,10,4,4,3,0.485,34.3
+1581,2025-03-10,4,Jaylen Brown,2,Boston Celtics,False,23,Philadelphia 76ers,30,15,3,1,2,0.586,35.4
+1582,2024-10-15,3,Jason Tatum,2,Boston Celtics,False,8,Denver Nuggets,24,6,10,1,2,0.497,33.2
+1583,2025-02-26,6,Luka Doncic,14,Los Angeles Lakers,True,23,Philadelphia 76ers,25,5,10,3,3,0.485,39.9
+1584,2025-03-23,7,Kyrie Irving,7,Dallas Mavericks,True,14,Los Angeles Lakers,30,12,5,0,2,0.504,32.8
+1585,2025-01-14,2,Stephen Curry,10,Golden State Warriors,True,11,Houston Rockets,29,11,6,2,0,0.542,31.2
+1586,2024-12-06,9,Kawhi Leonard,13,LA Clippers,True,6,Cleveland Cavaliers,20,12,3,2,0,0.492,38.0
+1587,2024-12-14,2,Stephen Curry,10,Golden State Warriors,True,18,Minnesota Timberwolves,34,12,3,4,2,0.56,32.2
+1588,2024-12-11,9,Kawhi Leonard,13,LA Clippers,True,28,Toronto Raptors,31,14,7,3,1,0.561,30.6
+1589,2024-12-07,9,Kawhi Leonard,13,LA Clippers,False,23,Philadelphia 76ers,34,3,3,5,0,0.559,38.6
+1590,2025-01-07,3,Jason Tatum,2,Boston Celtics,True,21,Oklahoma City Thunder,39,8,6,2,2,0.592,39.5
+1591,2025-02-21,5,Nikola Jokic,8,Denver Nuggets,False,25,Portland Trail Blazers,36,6,5,5,1,0.481,33.8
+1592,2025-02-24,5,Nikola Jokic,8,Denver Nuggets,True,1,Atlanta Hawks,17,5,3,2,3,0.43,34.9
+1593,2024-11-08,3,Jason Tatum,2,Boston Celtics,True,27,San Antonio Spurs,31,8,5,0,1,0.535,35.0
+1594,2024-12-29,4,Jaylen Brown,2,Boston Celtics,True,12,Indiana Pacers,20,9,8,5,0,0.405,34.6
+1595,2025-01-30,10,Russell Westbrook,8,Denver Nuggets,True,1,Atlanta Hawks,19,14,9,1,1,0.405,33.6
+1596,2025-01-08,1,LeBron James,14,Los Angeles Lakers,True,13,LA Clippers,30,14,3,2,2,0.53,38.4
+1597,2025-03-24,2,Stephen Curry,10,Golden State Warriors,True,6,Cleveland Cavaliers,11,15,9,4,2,0.558,33.1
+1598,2025-02-18,1,LeBron James,14,Los Angeles Lakers,False,4,Charlotte Hornets,20,6,10,3,0,0.567,32.9
+1599,2024-10-25,8,Anthony Davis,7,Dallas Mavericks,False,17,Milwaukee Bucks,10,13,7,4,1,0.439,30.9
+1600,2024-11-08,4,Jaylen Brown,2,Boston Celtics,True,28,Toronto Raptors,29,13,8,2,2,0.554,36.4
+1601,2025-01-22,6,Luka Doncic,14,Los Angeles Lakers,False,6,Cleveland Cavaliers,17,5,4,4,3,0.497,39.2
+1602,2025-03-16,1,LeBron James,14,Los Angeles Lakers,True,24,Phoenix Suns,32,10,9,4,3,0.497,39.8
+1603,2024-12-02,7,Kyrie Irving,7,Dallas Mavericks,False,14,Los Angeles Lakers,27,8,3,3,2,0.509,30.8
+1604,2025-03-13,6,Luka Doncic,14,Los Angeles Lakers,False,4,Charlotte Hornets,17,11,6,3,0,0.497,37.5
+1605,2025-02-19,2,Stephen Curry,10,Golden State Warriors,False,20,New York Knicks,37,4,7,3,2,0.597,36.9
+1606,2024-10-21,9,Kawhi Leonard,13,LA Clippers,True,21,Oklahoma City Thunder,34,10,7,3,2,0.49,33.2
+1607,2024-10-31,5,Nikola Jokic,8,Denver Nuggets,True,14,Los Angeles Lakers,14,8,3,3,2,0.476,32.1
+1608,2024-12-03,4,Jaylen Brown,2,Boston Celtics,False,29,Utah Jazz,29,15,6,4,1,0.522,37.6
+1609,2025-03-19,5,Nikola Jokic,8,Denver Nuggets,False,19,New Orleans Pelicans,32,12,8,1,2,0.48,36.9
+1610,2025-01-11,10,Russell Westbrook,8,Denver Nuggets,True,1,Atlanta Hawks,29,7,6,0,3,0.405,33.4
+1611,2024-12-11,4,Jaylen Brown,2,Boston Celtics,False,28,Toronto Raptors,16,15,10,5,0,0.585,36.2
+1612,2024-10-23,3,Jason Tatum,2,Boston Celtics,False,4,Charlotte Hornets,40,11,7,2,0,0.579,38.8
+1613,2024-10-13,6,Luka Doncic,14,Los Angeles Lakers,True,22,Orlando Magic,18,10,10,1,2,0.501,33.2
+1614,2025-03-28,5,Nikola Jokic,8,Denver Nuggets,True,30,Washington Wizards,29,7,6,4,3,0.41,32.8
+1615,2024-12-27,10,Russell Westbrook,8,Denver Nuggets,True,26,Sacramento Kings,30,13,9,0,1,0.533,31.7
+1616,2024-11-20,4,Jaylen Brown,2,Boston Celtics,False,27,San Antonio Spurs,24,10,10,4,0,0.465,35.4
+1617,2025-01-10,9,Kawhi Leonard,13,LA Clippers,True,16,Miami Heat,24,7,3,0,2,0.427,37.7
+1618,2025-02-01,4,Jaylen Brown,2,Boston Celtics,True,12,Indiana Pacers,19,3,7,2,2,0.514,32.4
+1619,2025-02-11,6,Luka Doncic,14,Los Angeles Lakers,True,29,Utah Jazz,38,11,7,5,2,0.541,30.1
+1620,2025-01-26,9,Kawhi Leonard,13,LA Clippers,False,7,Dallas Mavericks,39,12,4,2,2,0.526,35.5
+1621,2025-03-06,1,LeBron James,14,Los Angeles Lakers,True,21,Oklahoma City Thunder,26,3,4,1,0,0.594,38.6
+1622,2025-01-15,5,Nikola Jokic,8,Denver Nuggets,False,25,Portland Trail Blazers,35,10,4,5,2,0.468,36.7
+1623,2024-12-16,9,Kawhi Leonard,13,LA Clippers,False,1,Atlanta Hawks,18,4,9,4,2,0.431,40.7
+1624,2025-03-12,9,Kawhi Leonard,13,LA Clippers,True,19,New Orleans Pelicans,27,12,4,5,1,0.544,36.4
+1625,2024-09-30,1,LeBron James,14,Los Angeles Lakers,False,24,Phoenix Suns,28,8,5,5,2,0.513,36.0
+1626,2024-11-09,6,Luka Doncic,14,Los Angeles Lakers,False,23,Philadelphia 76ers,24,13,4,3,1,0.53,36.9
+1627,2025-02-06,6,Luka Doncic,14,Los Angeles Lakers,True,26,Sacramento Kings,31,10,5,5,0,0.575,36.2
+1628,2024-09-27,5,Nikola Jokic,8,Denver Nuggets,True,19,New Orleans Pelicans,22,6,5,1,0,0.421,40.7
+1629,2025-02-05,2,Stephen Curry,10,Golden State Warriors,True,20,New York Knicks,37,10,6,0,3,0.429,38.0
+1630,2025-03-05,2,Stephen Curry,10,Golden State Warriors,False,17,Milwaukee Bucks,15,14,4,1,2,0.482,30.9
+1631,2025-02-06,3,Jason Tatum,2,Boston Celtics,True,5,Chicago Bulls,23,8,6,0,0,0.406,34.3
+1632,2025-01-20,6,Luka Doncic,14,Los Angeles Lakers,False,25,Portland Trail Blazers,20,10,8,5,1,0.567,31.9
+1633,2025-02-23,2,Stephen Curry,10,Golden State Warriors,True,16,Miami Heat,35,14,6,3,3,0.508,38.8
+1634,2025-02-05,6,Luka Doncic,14,Los Angeles Lakers,False,27,San Antonio Spurs,12,9,10,3,1,0.408,30.4
+1635,2025-01-13,9,Kawhi Leonard,13,LA Clippers,True,12,Indiana Pacers,18,4,7,1,1,0.544,35.2
+1636,2024-11-12,10,Russell Westbrook,8,Denver Nuggets,False,6,Cleveland Cavaliers,16,4,6,1,0,0.58,39.0
+1637,2025-01-23,6,Luka Doncic,14,Los Angeles Lakers,False,3,Brooklyn Nets,24,12,7,5,0,0.509,36.1
+1638,2025-03-29,7,Kyrie Irving,7,Dallas Mavericks,True,11,Houston Rockets,14,12,4,0,3,0.54,38.1
+1639,2025-03-18,4,Jaylen Brown,2,Boston Celtics,False,21,Oklahoma City Thunder,14,13,7,2,1,0.46,36.1
+1640,2025-02-12,2,Stephen Curry,10,Golden State Warriors,True,29,Utah Jazz,25,5,4,1,1,0.538,37.1
+1641,2025-03-24,9,Kawhi Leonard,13,LA Clippers,True,22,Orlando Magic,17,7,3,2,0,0.427,31.8
+1642,2025-04-02,3,Jason Tatum,2,Boston Celtics,False,24,Phoenix Suns,17,14,10,2,3,0.438,34.8
+1643,2025-03-12,7,Kyrie Irving,7,Dallas Mavericks,True,6,Cleveland Cavaliers,26,13,6,4,3,0.47,33.7
+1644,2024-10-07,2,Stephen Curry,10,Golden State Warriors,True,13,LA Clippers,32,9,9,3,1,0.425,34.6
+1645,2024-11-24,4,Jaylen Brown,2,Boston Celtics,True,10,Golden State Warriors,25,6,5,1,2,0.56,31.2
+1646,2024-10-21,5,Nikola Jokic,8,Denver Nuggets,False,18,Minnesota Timberwolves,37,15,7,3,0,0.555,35.8
+1647,2025-03-28,9,Kawhi Leonard,13,LA Clippers,True,8,Denver Nuggets,17,3,9,2,0,0.572,33.1
+1648,2025-02-14,10,Russell Westbrook,8,Denver Nuggets,True,29,Utah Jazz,10,6,3,5,2,0.414,36.5
+1649,2025-04-02,10,Russell Westbrook,8,Denver Nuggets,False,20,New York Knicks,32,10,7,2,3,0.482,35.4
+1650,2024-09-29,8,Anthony Davis,7,Dallas Mavericks,False,4,Charlotte Hornets,20,5,7,5,0,0.549,36.1
+1651,2025-03-29,10,Russell Westbrook,8,Denver Nuggets,False,29,Utah Jazz,10,11,8,0,2,0.446,38.8
+1652,2024-11-06,8,Anthony Davis,7,Dallas Mavericks,True,20,New York Knicks,10,15,10,0,0,0.578,31.4
+1653,2025-02-03,9,Kawhi Leonard,13,LA Clippers,True,21,Oklahoma City Thunder,19,8,7,5,0,0.563,30.7
+1654,2025-01-24,8,Anthony Davis,7,Dallas Mavericks,False,12,Indiana Pacers,22,10,9,3,2,0.414,35.8
+1655,2025-01-13,8,Anthony Davis,7,Dallas Mavericks,True,24,Phoenix Suns,35,11,3,3,0,0.526,34.4
+1656,2024-09-25,8,Anthony Davis,7,Dallas Mavericks,False,20,New York Knicks,18,13,4,1,1,0.475,34.6
+1657,2025-03-02,5,Nikola Jokic,8,Denver Nuggets,True,7,Dallas Mavericks,16,9,3,5,0,0.555,33.8
+1658,2025-02-11,4,Jaylen Brown,2,Boston Celtics,False,16,Miami Heat,34,7,4,5,2,0.415,32.4
+1659,2024-12-02,3,Jason Tatum,2,Boston Celtics,True,11,Houston Rockets,33,6,4,4,0,0.463,37.5
+1660,2025-01-05,4,Jaylen Brown,2,Boston Celtics,False,29,Utah Jazz,14,4,9,0,1,0.417,34.1
+1661,2025-02-05,2,Stephen Curry,10,Golden State Warriors,True,20,New York Knicks,32,9,7,5,1,0.422,37.5
+1662,2025-03-14,3,Jason Tatum,2,Boston Celtics,True,8,Denver Nuggets,22,5,9,1,0,0.518,36.1
+1663,2024-10-22,5,Nikola Jokic,8,Denver Nuggets,True,10,Golden State Warriors,37,3,5,1,2,0.477,31.6
+1664,2025-02-28,4,Jaylen Brown,2,Boston Celtics,False,10,Golden State Warriors,18,10,5,1,1,0.582,30.2
+1665,2024-10-14,3,Jason Tatum,2,Boston Celtics,True,3,Brooklyn Nets,21,3,3,5,0,0.414,33.6
+1666,2024-10-17,10,Russell Westbrook,8,Denver Nuggets,False,18,Minnesota Timberwolves,37,5,5,2,3,0.575,33.6
+1667,2024-09-30,7,Kyrie Irving,7,Dallas Mavericks,False,23,Philadelphia 76ers,38,9,7,1,3,0.531,36.3
+1668,2025-01-19,10,Russell Westbrook,8,Denver Nuggets,True,3,Brooklyn Nets,18,7,6,4,2,0.404,37.7
+1669,2024-12-19,9,Kawhi Leonard,13,LA Clippers,True,29,Utah Jazz,12,12,10,5,1,0.443,30.9
+1670,2024-12-09,1,LeBron James,14,Los Angeles Lakers,True,23,Philadelphia 76ers,17,3,7,4,2,0.505,30.6
+1671,2025-01-04,3,Jason Tatum,2,Boston Celtics,True,29,Utah Jazz,30,9,4,0,1,0.481,37.6
+1672,2024-12-19,5,Nikola Jokic,8,Denver Nuggets,False,19,New Orleans Pelicans,25,4,5,5,2,0.482,40.8
+1673,2025-01-30,2,Stephen Curry,10,Golden State Warriors,False,1,Atlanta Hawks,33,3,3,3,3,0.575,33.3
+1674,2024-10-12,8,Anthony Davis,7,Dallas Mavericks,False,25,Portland Trail Blazers,16,15,8,2,2,0.555,38.8
+1675,2024-11-10,6,Luka Doncic,14,Los Angeles Lakers,False,13,LA Clippers,20,10,4,0,0,0.567,33.5
+1676,2024-12-26,10,Russell Westbrook,8,Denver Nuggets,False,30,Washington Wizards,12,9,6,3,0,0.592,35.0
+1677,2024-11-18,4,Jaylen Brown,2,Boston Celtics,False,28,Toronto Raptors,31,13,9,3,0,0.53,32.9
+1678,2025-03-18,10,Russell Westbrook,8,Denver Nuggets,False,26,Sacramento Kings,29,12,10,0,0,0.409,37.7
+1679,2025-02-08,5,Nikola Jokic,8,Denver Nuggets,True,3,Brooklyn Nets,12,15,5,4,3,0.445,38.1
+1680,2024-10-30,6,Luka Doncic,14,Los Angeles Lakers,True,9,Detroit Pistons,26,15,8,3,3,0.506,36.0
+1681,2024-09-28,3,Jason Tatum,2,Boston Celtics,False,21,Oklahoma City Thunder,12,12,7,5,2,0.508,33.0
+1682,2025-03-14,6,Luka Doncic,14,Los Angeles Lakers,False,15,Memphis Grizzlies,10,7,5,2,0,0.402,36.2
+1683,2024-11-04,8,Anthony Davis,7,Dallas Mavericks,False,30,Washington Wizards,31,6,6,0,2,0.418,37.0
+1684,2025-03-16,4,Jaylen Brown,2,Boston Celtics,False,13,LA Clippers,29,13,5,1,3,0.544,33.6
+1685,2025-03-04,7,Kyrie Irving,7,Dallas Mavericks,False,20,New York Knicks,14,10,8,1,3,0.468,32.9
+1686,2024-10-27,2,Stephen Curry,10,Golden State Warriors,True,1,Atlanta Hawks,35,11,10,4,2,0.466,32.3
+1687,2024-11-23,1,LeBron James,14,Los Angeles Lakers,False,7,Dallas Mavericks,22,9,10,3,1,0.578,31.3
+1688,2024-09-26,3,Jason Tatum,2,Boston Celtics,False,23,Philadelphia 76ers,38,4,8,3,3,0.559,37.9
+1689,2024-12-27,1,LeBron James,14,Los Angeles Lakers,False,1,Atlanta Hawks,22,14,5,0,1,0.494,32.2
+1690,2024-10-13,8,Anthony Davis,7,Dallas Mavericks,True,17,Milwaukee Bucks,35,14,9,1,1,0.597,33.3
+1691,2024-11-21,4,Jaylen Brown,2,Boston Celtics,False,30,Washington Wizards,20,10,3,2,0,0.501,37.0
+1692,2025-01-11,3,Jason Tatum,2,Boston Celtics,True,14,Los Angeles Lakers,28,11,5,4,2,0.573,40.6
+1693,2024-12-29,1,LeBron James,14,Los Angeles Lakers,True,17,Milwaukee Bucks,31,12,5,0,0,0.452,39.0
+1694,2025-02-27,8,Anthony Davis,7,Dallas Mavericks,False,28,Toronto Raptors,39,5,7,0,1,0.512,32.3
+1695,2025-02-24,4,Jaylen Brown,2,Boston Celtics,True,21,Oklahoma City Thunder,33,6,4,0,2,0.41,31.5
+1696,2024-11-20,10,Russell Westbrook,8,Denver Nuggets,True,3,Brooklyn Nets,24,8,6,3,3,0.401,39.2
+1697,2024-10-11,2,Stephen Curry,10,Golden State Warriors,True,18,Minnesota Timberwolves,29,3,9,0,2,0.573,36.9
+1698,2025-02-13,7,Kyrie Irving,7,Dallas Mavericks,True,18,Minnesota Timberwolves,32,4,5,1,2,0.462,34.5
+1699,2025-02-22,7,Kyrie Irving,7,Dallas Mavericks,True,15,Memphis Grizzlies,28,13,6,0,0,0.513,40.8
+1700,2024-10-19,9,Kawhi Leonard,13,LA Clippers,True,23,Philadelphia 76ers,28,9,10,4,3,0.423,38.5
+1701,2024-12-01,1,LeBron James,14,Los Angeles Lakers,False,6,Cleveland Cavaliers,11,12,6,3,2,0.458,38.9
+1702,2024-12-28,8,Anthony Davis,7,Dallas Mavericks,False,21,Oklahoma City Thunder,39,15,4,3,2,0.509,37.8
+1703,2025-01-09,5,Nikola Jokic,8,Denver Nuggets,False,9,Detroit Pistons,31,8,5,5,2,0.593,38.4
+1704,2024-11-11,6,Luka Doncic,14,Los Angeles Lakers,False,10,Golden State Warriors,10,11,7,4,3,0.515,35.9
+1705,2025-02-02,4,Jaylen Brown,2,Boston Celtics,False,19,New Orleans Pelicans,33,12,9,4,3,0.587,31.0
+1706,2025-02-16,1,LeBron James,14,Los Angeles Lakers,False,29,Utah Jazz,21,6,5,5,0,0.49,38.2
+1707,2024-11-27,3,Jason Tatum,2,Boston Celtics,False,21,Oklahoma City Thunder,30,13,3,0,2,0.435,31.9
+1708,2024-10-19,3,Jason Tatum,2,Boston Celtics,True,13,LA Clippers,30,10,8,3,0,0.45,40.9
+1709,2024-12-28,2,Stephen Curry,10,Golden State Warriors,False,13,LA Clippers,15,6,4,0,1,0.483,32.8
+1710,2024-11-16,8,Anthony Davis,7,Dallas Mavericks,False,27,San Antonio Spurs,10,9,8,1,1,0.528,40.5
+1711,2025-03-28,4,Jaylen Brown,2,Boston Celtics,True,7,Dallas Mavericks,37,7,6,5,3,0.491,40.0
+1712,2025-01-18,3,Jason Tatum,2,Boston Celtics,False,22,Orlando Magic,21,5,5,2,0,0.406,31.7
+1713,2025-01-09,7,Kyrie Irving,7,Dallas Mavericks,False,28,Toronto Raptors,40,10,10,5,1,0.544,40.5
+1714,2024-11-05,1,LeBron James,14,Los Angeles Lakers,True,6,Cleveland Cavaliers,39,15,9,3,3,0.518,30.6
+1715,2024-12-04,4,Jaylen Brown,2,Boston Celtics,False,22,Orlando Magic,20,7,9,4,0,0.482,37.9
+1716,2024-12-15,3,Jason Tatum,2,Boston Celtics,True,1,Atlanta Hawks,17,11,10,1,2,0.432,35.1
+1717,2025-03-02,7,Kyrie Irving,7,Dallas Mavericks,True,10,Golden State Warriors,19,3,9,4,3,0.563,30.3
+1718,2024-11-21,5,Nikola Jokic,8,Denver Nuggets,False,2,Boston Celtics,14,7,8,3,3,0.481,32.5
+1719,2024-09-26,8,Anthony Davis,7,Dallas Mavericks,True,24,Phoenix Suns,40,15,9,1,0,0.574,38.2
+1720,2025-03-01,3,Jason Tatum,2,Boston Celtics,True,4,Charlotte Hornets,40,4,7,0,0,0.437,39.6
+1721,2024-11-24,5,Nikola Jokic,8,Denver Nuggets,True,18,Minnesota Timberwolves,19,5,6,4,3,0.413,33.1
+1722,2025-02-12,8,Anthony Davis,7,Dallas Mavericks,False,8,Denver Nuggets,26,13,3,4,3,0.44,33.1
+1723,2024-12-18,7,Kyrie Irving,7,Dallas Mavericks,True,30,Washington Wizards,39,13,9,3,0,0.46,40.1
+1724,2024-11-27,4,Jaylen Brown,2,Boston Celtics,False,6,Cleveland Cavaliers,14,14,5,2,3,0.586,34.9
+1725,2024-09-28,7,Kyrie Irving,7,Dallas Mavericks,True,27,San Antonio Spurs,26,3,9,3,0,0.419,33.2
+1726,2025-01-25,3,Jason Tatum,2,Boston Celtics,True,23,Philadelphia 76ers,21,14,6,5,1,0.45,37.5
+1727,2025-01-28,1,LeBron James,14,Los Angeles Lakers,False,23,Philadelphia 76ers,28,11,9,0,3,0.561,37.5
+1728,2025-03-07,4,Jaylen Brown,2,Boston Celtics,False,9,Detroit Pistons,26,7,3,3,2,0.596,38.5
+1729,2025-02-13,9,Kawhi Leonard,13,LA Clippers,True,26,Sacramento Kings,38,12,7,5,0,0.484,32.9
+1730,2025-02-25,4,Jaylen Brown,2,Boston Celtics,False,3,Brooklyn Nets,18,10,8,1,1,0.408,34.0
+1731,2024-11-10,1,LeBron James,14,Los Angeles Lakers,True,9,Detroit Pistons,26,9,3,5,3,0.527,38.2
+1732,2025-01-09,2,Stephen Curry,10,Golden State Warriors,True,25,Portland Trail Blazers,25,13,3,0,0,0.44,30.3
+1733,2025-02-11,3,Jason Tatum,2,Boston Celtics,True,21,Oklahoma City Thunder,15,4,6,3,1,0.455,32.5
+1734,2025-02-08,7,Kyrie Irving,7,Dallas Mavericks,False,2,Boston Celtics,21,9,9,0,2,0.449,30.9
+1735,2024-11-01,6,Luka Doncic,14,Los Angeles Lakers,False,24,Phoenix Suns,36,3,4,2,1,0.528,35.8
+1736,2024-10-17,2,Stephen Curry,10,Golden State Warriors,True,13,LA Clippers,15,6,6,4,0,0.485,36.1
+1737,2025-01-07,5,Nikola Jokic,8,Denver Nuggets,False,23,Philadelphia 76ers,28,11,7,1,1,0.428,37.5
+1738,2024-11-18,8,Anthony Davis,7,Dallas Mavericks,False,11,Houston Rockets,36,7,9,2,1,0.539,34.3
+1739,2025-03-17,5,Nikola Jokic,8,Denver Nuggets,True,25,Portland Trail Blazers,39,3,7,3,2,0.565,36.2
+1740,2024-11-08,9,Kawhi Leonard,13,LA Clippers,True,5,Chicago Bulls,33,10,8,0,0,0.47,33.9
+1741,2024-10-30,5,Nikola Jokic,8,Denver Nuggets,True,28,Toronto Raptors,32,11,3,4,2,0.501,35.2
+1742,2025-01-09,10,Russell Westbrook,8,Denver Nuggets,True,4,Charlotte Hornets,40,8,6,2,0,0.597,31.4
+1743,2025-04-04,10,Russell Westbrook,8,Denver Nuggets,True,10,Golden State Warriors,27,9,6,1,3,0.426,33.4
+1744,2025-03-26,8,Anthony Davis,7,Dallas Mavericks,True,12,Indiana Pacers,40,6,9,3,1,0.417,32.5
+1745,2024-10-27,5,Nikola Jokic,8,Denver Nuggets,True,17,Milwaukee Bucks,31,8,8,5,2,0.403,39.5
+1746,2024-12-09,9,Kawhi Leonard,13,LA Clippers,False,9,Detroit Pistons,14,12,5,1,2,0.578,34.8
+1747,2025-03-22,7,Kyrie Irving,7,Dallas Mavericks,False,16,Miami Heat,26,12,3,2,3,0.52,32.7
+1748,2024-09-29,5,Nikola Jokic,8,Denver Nuggets,True,23,Philadelphia 76ers,10,15,4,5,2,0.584,36.5
+1749,2025-02-15,2,Stephen Curry,10,Golden State Warriors,False,30,Washington Wizards,12,5,5,1,2,0.496,38.0
+1750,2025-03-01,1,LeBron James,14,Los Angeles Lakers,False,29,Utah Jazz,14,6,10,1,2,0.432,34.2
+1751,2025-02-02,9,Kawhi Leonard,13,LA Clippers,True,4,Charlotte Hornets,36,8,8,3,3,0.475,32.1
+1752,2025-03-25,7,Kyrie Irving,7,Dallas Mavericks,False,2,Boston Celtics,25,14,7,5,0,0.577,37.5
+1753,2024-11-06,9,Kawhi Leonard,13,LA Clippers,False,1,Atlanta Hawks,29,10,4,2,0,0.532,30.9
+1754,2024-10-06,5,Nikola Jokic,8,Denver Nuggets,True,16,Miami Heat,13,11,8,2,2,0.471,36.4
+1755,2024-10-26,10,Russell Westbrook,8,Denver Nuggets,False,13,LA Clippers,19,10,6,3,0,0.435,31.2
+1756,2024-10-26,7,Kyrie Irving,7,Dallas Mavericks,False,6,Cleveland Cavaliers,40,9,4,3,2,0.476,33.3
+1757,2025-03-20,7,Kyrie Irving,7,Dallas Mavericks,False,8,Denver Nuggets,21,13,5,4,0,0.458,40.5
+1758,2024-12-11,10,Russell Westbrook,8,Denver Nuggets,False,11,Houston Rockets,31,10,9,3,1,0.431,32.9
+1759,2024-09-27,10,Russell Westbrook,8,Denver Nuggets,True,20,New York Knicks,34,8,7,1,1,0.457,32.3
+1760,2025-03-08,10,Russell Westbrook,8,Denver Nuggets,False,21,Oklahoma City Thunder,19,14,7,1,3,0.595,30.3
+1761,2024-12-29,4,Jaylen Brown,2,Boston Celtics,True,14,Los Angeles Lakers,16,9,9,4,3,0.49,32.8
+1762,2025-02-12,9,Kawhi Leonard,13,LA Clippers,True,15,Memphis Grizzlies,18,8,4,1,2,0.548,35.1
+1763,2025-03-08,7,Kyrie Irving,7,Dallas Mavericks,False,27,San Antonio Spurs,29,5,6,3,3,0.591,33.4
+1764,2025-02-08,1,LeBron James,14,Los Angeles Lakers,True,3,Brooklyn Nets,34,9,10,5,1,0.511,38.6
+1765,2025-01-23,10,Russell Westbrook,8,Denver Nuggets,True,28,Toronto Raptors,26,6,3,1,0,0.448,34.3
+1766,2025-04-06,2,Stephen Curry,10,Golden State Warriors,False,15,Memphis Grizzlies,35,11,3,1,1,0.508,30.3
+1767,2025-02-15,5,Nikola Jokic,8,Denver Nuggets,False,2,Boston Celtics,36,9,3,2,1,0.596,35.0
+1768,2025-02-08,9,Kawhi Leonard,13,LA Clippers,False,15,Memphis Grizzlies,35,3,10,5,0,0.521,38.7
+1769,2024-10-15,1,LeBron James,14,Los Angeles Lakers,False,23,Philadelphia 76ers,12,3,3,3,1,0.42,30.1
+1770,2024-09-30,4,Jaylen Brown,2,Boston Celtics,True,28,Toronto Raptors,38,12,10,3,3,0.465,38.3
+1771,2025-03-13,7,Kyrie Irving,7,Dallas Mavericks,False,26,Sacramento Kings,15,12,4,2,1,0.449,30.4
+1772,2024-11-26,4,Jaylen Brown,2,Boston Celtics,False,15,Memphis Grizzlies,33,11,6,5,1,0.453,32.7
+1773,2024-11-08,4,Jaylen Brown,2,Boston Celtics,True,1,Atlanta Hawks,13,7,3,5,0,0.555,41.0
+1774,2025-02-12,4,Jaylen Brown,2,Boston Celtics,True,16,Miami Heat,37,3,4,3,1,0.575,37.4
+1775,2025-03-11,5,Nikola Jokic,8,Denver Nuggets,False,2,Boston Celtics,33,12,4,3,2,0.57,38.7
+1776,2024-12-28,5,Nikola Jokic,8,Denver Nuggets,True,11,Houston Rockets,21,10,5,0,1,0.413,40.3
+1777,2025-02-20,4,Jaylen Brown,2,Boston Celtics,False,29,Utah Jazz,39,10,4,2,2,0.553,34.6
+1778,2024-09-27,1,LeBron James,14,Los Angeles Lakers,True,1,Atlanta Hawks,17,15,3,3,0,0.413,40.4
+1779,2024-12-02,7,Kyrie Irving,7,Dallas Mavericks,True,4,Charlotte Hornets,39,11,7,1,2,0.498,37.5
+1780,2025-04-03,5,Nikola Jokic,8,Denver Nuggets,False,20,New York Knicks,20,11,4,2,1,0.556,38.4
+1781,2024-12-13,10,Russell Westbrook,8,Denver Nuggets,False,7,Dallas Mavericks,23,9,6,1,0,0.47,33.0
+1782,2024-10-14,8,Anthony Davis,7,Dallas Mavericks,True,27,San Antonio Spurs,22,6,3,5,3,0.507,39.0
+1783,2024-10-17,4,Jaylen Brown,2,Boston Celtics,True,7,Dallas Mavericks,29,10,7,4,1,0.46,40.7
+1784,2024-11-22,10,Russell Westbrook,8,Denver Nuggets,False,22,Orlando Magic,18,7,4,4,2,0.41,31.8
+1785,2024-10-08,4,Jaylen Brown,2,Boston Celtics,False,4,Charlotte Hornets,22,11,7,0,2,0.551,40.2
+1786,2024-12-25,10,Russell Westbrook,8,Denver Nuggets,True,15,Memphis Grizzlies,10,3,7,1,0,0.523,33.5
+1787,2024-11-14,8,Anthony Davis,7,Dallas Mavericks,True,6,Cleveland Cavaliers,18,6,9,3,1,0.415,36.5
+1788,2024-10-30,3,Jason Tatum,2,Boston Celtics,True,3,Brooklyn Nets,29,3,7,3,0,0.513,31.6
+1789,2025-01-17,5,Nikola Jokic,8,Denver Nuggets,False,15,Memphis Grizzlies,26,11,6,2,2,0.471,37.9
+1790,2025-03-31,3,Jason Tatum,2,Boston Celtics,False,8,Denver Nuggets,21,8,3,5,2,0.511,38.8
+1791,2024-10-11,9,Kawhi Leonard,13,LA Clippers,False,21,Oklahoma City Thunder,26,10,5,4,1,0.503,35.6
+1792,2025-03-22,1,LeBron James,14,Los Angeles Lakers,False,9,Detroit Pistons,13,7,8,2,1,0.451,36.6
+1793,2024-10-31,3,Jason Tatum,2,Boston Celtics,True,22,Orlando Magic,31,14,9,2,3,0.56,30.8
+1794,2025-03-11,1,LeBron James,14,Los Angeles Lakers,False,26,Sacramento Kings,25,3,8,1,1,0.574,37.3
+1795,2025-03-29,5,Nikola Jokic,8,Denver Nuggets,True,23,Philadelphia 76ers,10,7,3,5,0,0.597,34.0
+1796,2025-02-21,7,Kyrie Irving,7,Dallas Mavericks,False,28,Toronto Raptors,18,12,7,5,1,0.533,36.5
+1797,2025-03-04,6,Luka Doncic,14,Los Angeles Lakers,False,8,Denver Nuggets,32,10,3,0,0,0.477,37.8
+1798,2025-03-22,2,Stephen Curry,10,Golden State Warriors,False,20,New York Knicks,19,10,7,3,1,0.58,32.1

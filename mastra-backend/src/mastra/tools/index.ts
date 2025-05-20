@@ -17,15 +17,4 @@ export const playerComparisonTool = createTool({
       },
 })
 
-export const articleSemanticSearch = createTool({
-    id: "Search for relevant basketball articles",
-    inputSchema: z.object({
-        player1:z.string(),
-        player2:z.string(),
-    }),
-    description: "Use this tool to find relevant basketball articles for each player given in the user prompt.",
-    execute: async ({ context: { player1, player2 }}) => {
-        return await getArticles(player1, player2)
-    }
-})
     

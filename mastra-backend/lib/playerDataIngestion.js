@@ -9,7 +9,7 @@ async function createIndex() {
   
       // Create the index with mappings
       const response = await elasticClient.indices.create({
-        index: indexName,
+        index: indexName, //Replace with your index name
         body: {
           mappings: {
             properties: {
