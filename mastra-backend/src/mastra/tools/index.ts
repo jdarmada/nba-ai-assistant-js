@@ -1,6 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-import { getArticles } from '../../../lib/articleSearch.js'
 import { comparePlayersForNextMatchup } from '../../../lib/comparePlayers.js'
 import { createTool } from "@mastra/core/tools";
 import { z } from "zod";
