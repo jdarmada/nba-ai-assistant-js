@@ -1,7 +1,7 @@
 export const playersByName = {
     'LeBron James': { player_id: 1, team_id: 14, team_name: 'Los Angeles Lakers' },
     'Stephen Curry': { player_id: 2, team_id: 10, team_name: 'Golden State Warriors' },
-    'Jason Tatum': { player_id: 3, team_id: 2, team_name: 'Boston Celtics' },
+    'Jayson Tatum': { player_id: 3, team_id: 2, team_name: 'Boston Celtics' },
     'Jaylen Brown': { player_id: 4, team_id: 2, team_name: 'Boston Celtics' },
     'Nikola Jokic': { player_id: 5, team_id: 8, team_name: 'Denver Nuggets' },
     'Luka Doncic': { player_id: 6, team_id: 14, team_name: 'Los Angeles Lakers' },
