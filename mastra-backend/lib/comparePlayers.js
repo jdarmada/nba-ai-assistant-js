@@ -4,7 +4,7 @@ import { upcomingMatchups } from '../data/playerAndTeamInfo.js';
 import { getHistoricalAveragesAgainstOpponent } from './elasticAggs.js';
 import { getSeasonAveragesAgainstOpponent } from './elasticAggs.js';
 
-//Simple helper functions to simulate API calls
+//Simple helper functions to simulate API calls for player and team metadata. These reference the hardcoded values from playerAndTeamInfo.js in the data directory
 export function getPlayerInfo(playerFullName) {
     return playersByName[playerFullName];
 }
