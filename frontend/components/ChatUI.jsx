@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useChat } from '@ai-sdk/react';
+import ReactMarkdown from 'react-markdown';
 
 export default function ChatUI() {
     const [totalTokenUsage, setTotalTokenUsage] = useState(0);
@@ -54,8 +55,9 @@ export default function ChatUI() {
             <strong>Conversation:</strong>
             <div className="convo-box">
                 {messages.map((msg) => (
-                    <div key={msg.id} className='message-item'>
-                        <strong className='message-role'>{msg.role === 'assistant' ? 'Basketbot' : 'You'}:</strong> {msg.content}
+                    <div key={msg.id} className="message-item">
+                        <strong className="message-role">{msg.role === 'assistant' ? 'Basketbot' : 'You'}:</strong>
+                        <ReactMarkdown>{msg.content}</ReactMarkdown>
                     </div>
                 ))}
             </div>
@@ -66,7 +68,7 @@ export default function ChatUI() {
                     value={input}
                     onChange={handleInputChange}
                     placeholder="Input two players you want to compare."
-                    className='input-box'
+                    className="input-box"
                 />
                 <button type="submit" disabled={status === 'streaming'}>
                     {status === 'streaming' ? 'Thinking...' : 'Send'}
