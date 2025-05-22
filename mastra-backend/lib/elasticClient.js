@@ -9,3 +9,15 @@ const config= {
 };
 
 export const elasticClient = new Client(config);
+
+//Check if the client is connected
+async function checkConnection() { 
+    try {
+        const info = await elasticClient.info;
+        console.log('Elasticsearch is connected:', info);
+    } catch (error) {
+        console.error('Elasticsearch connection error:', error);
+    }
+}
+
+checkConnection();
