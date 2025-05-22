@@ -1,8 +1,15 @@
 import fs from 'fs';
 import readline from 'readline';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { elasticClient } from './elasticClient.js';
 
 const indexName = 'sample-nba-player-data'; //Replace with your preferred index name
+
+//Since we are using ES modules __dirname and __filename don't exist, so this is a workaround that allows us to use the absolute file path for our sample data.
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const filePath = path.resolve(__dirname, '../data/sample_player_game_stats.csv');
 
 // Function to create an index with mappings
 async function createIndex() {
@@ -113,10 +120,19 @@ async function bulkIngestCsv(filePath) {
     try {
         // Perform the bulk request
         const response = await elasticClient.bulk({ body: bulkBody });
+
+        if(response.errors){
+            console.log('Bulk Ingestion Failed:',response.errors)
+        } else {
+            console.log(`Bulk Ingestion successful. Indexed ${response.items.length} documents. `)
+        }
     } catch (error) {
         console.error('Error performing bulk ingestion:', error);
     }
 }
 
+//Call the createIndex function
+createIndex()
+
 // Call the bulk ingestion function
-bulkIngestCsv();
+bulkIngestCsv(filePath);
