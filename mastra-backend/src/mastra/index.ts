@@ -15,7 +15,7 @@ export const mastra = new Mastra({
     handler: async (c, next) => {
       // Add CORS headers
       c.header('Access-Control-Allow-Origin', '*');
-      c.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+      c.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
       c.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
       
       // Handle preflight requests
@@ -29,3 +29,4 @@ export const mastra = new Mastra({
 });
 
 console.log('Mastra server configured.'); // Log after server configuration
+
