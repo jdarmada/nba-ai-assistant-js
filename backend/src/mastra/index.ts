@@ -8,10 +8,6 @@ console.log('Starting Mastra server...');
 
 export const mastra = new Mastra({
   agents: { basketballAgent },
-  logger: createLogger({
-    name: 'Mastra',
-    level: 'info',
-  }),
   server:{
     timeout: 10 * 60 * 1000, // 10 minutes
     cors: {
