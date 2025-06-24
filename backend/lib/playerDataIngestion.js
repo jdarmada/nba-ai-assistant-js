@@ -9,7 +9,7 @@ const indexName = 'sample-nba-player-data'; //Replace with your preferred index 
 //Since we are using ES modules __dirname and __filename don't exist, so this is a workaround that allows us to use the absolute file path for our sample data.
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const filePath = path.resolve(__dirname, '../data/sample_player_game_stats.csv');
+const filePath = path.resolve(__dirname, '../data/sample_nba_data.csv');
 
 // Function to create an index with mappings
 async function createIndex() {
