@@ -16,6 +16,7 @@ An NBA fantasy basketball assistant that compares players and provides data-driv
 - **[Mastra Framework](https://mastra.ai/en/docs)** for AI agent orchestration
 - **OpenAI GPT-4o** LLM used as the brains of the agent
 - **[Elasticsearch](https://www.elastic.co/)** for storing, querying and aggregating NBA player data
+- **Dotenv** loads environment variables into `process.env`
 
 ### Frontend
 - **React** for simple chat interface
@@ -69,7 +70,7 @@ Before running this app, make sure you have:
 
 ### 1. Elasticsearch Setup
 
-You need an active Elasticsearch cluster. Two options:
+First, you need an active Elasticsearch cluster. Two options:
 
 **Option A: Use Elasticsearch Cloud**
 - Sign up for [Elastic Cloud](https://cloud.elastic.co/)
@@ -84,11 +85,11 @@ You need an active Elasticsearch cluster. Two options:
 ### 2. Data Ingestion
 
 The next step is ingesting the included sample NBA player data into Elasticsearch. 
-Head over to `playerDataIngestion.js` in the `backend/lib` directories and run the functions at the bottom.
+Head over to `playerDataIngestion.js` in the `backend/lib` directories and run the main function at the bottom.
 
 ```console
-cd backend
-node lib/playerDataIngestion.js
+cd backend/lib
+node playerDataIngestion.js
 ```
 
 Running this file will:
@@ -184,6 +185,7 @@ model: openai('gpt-4o-mini'), // or other supported models
 
 1. **Elasticsearch Connection Errors**
    - Verify your `ELASTIC_ENDPOINT` and `ELASTIC_API_KEY`
+   - Make sure your environment variables are being loaded in correctly
    - Check to see if your Elasticsearch cluster is running and accessible
 
 2. **OpenAI API Errors**
