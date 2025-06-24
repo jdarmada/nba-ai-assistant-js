@@ -1,5 +1,19 @@
 {
-  "dependencies": {
-    "@elastic/elasticsearch": "^8.17.1"
-  }
-}
+    "name": "nba-fantasy-chatbot",
+    "private": true,
+    "workspaces": [
+        "backend",
+        "frontend"
+    ],
+    "scripts": {
+        "dev": "concurrently --names \"BACKEND,FRONTEND\" --prefix-colors \"blue,green\" --kill-others-on-fail \"npm run dev:backend\" \"npm run dev:frontend\"",
+        "dev:backend": "npm run dev --workspace=backend",
+        "dev:frontend": "npm run dev --workspace=frontend",
+        "dev:workspaces": "npm run dev --workspaces",
+        "build:frontend": "npm run build --workspace=frontend",
+        "install:all": "npm install"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+ }
