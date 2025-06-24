@@ -35,7 +35,7 @@ Before running this app, make sure you have:
 ## Installation
 
 1. **Clone the repository**
-   ```javascript
+   ```console
 
    git clone https://github.com/jdarmada/nba-fantasy-chatbot-js.git
 
@@ -46,7 +46,7 @@ Before running this app, make sure you have:
 2. **Install dependencies**
    
    Install all dependencies while in the root folder, run the command:
-   ```javascript
+   ```console
 
    npm install
 
@@ -86,7 +86,7 @@ You need an active Elasticsearch cluster. Two options:
 The next step is ingesting the included sample NBA player data into Elasticsearch. 
 Head over to `playerDataIngestion.js` in the `backend/lib` directories and run the functions at the bottom.
 
-```javascript
+```console
 cd backend
 node lib/playerDataIngestion.js
 ```
@@ -102,7 +102,7 @@ Running this file will:
 ### Development Mode
 
 1. **Start both the frontend and backend server**
-   ```javascript
+   ```console
    cd nba-fantasy-chatbot-js
    npm run dev
    ```
@@ -174,7 +174,7 @@ The data included is pre-generated and not accurate, if you want accurate, updat
 
 Update the model configuration in `backend/src/mastra/agents/index.ts`:
 
-```
+```js
 model: openai('gpt-4o-mini'), // or other supported models
 ```
 
