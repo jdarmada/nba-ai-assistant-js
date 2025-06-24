@@ -1,6 +1,6 @@
-# NBA Fantasy Chatbot 🏀
+# NBA AI Assistant 🏀
 
-An NBA fantasy basketball assistant that compares players and provides data-driven recommendations for your fantasy lineup.
+An NBA fantasy basketball assistant that compares players and provides data driven recommendations for your fantasy lineup.
 
 ## Features
 
@@ -12,7 +12,7 @@ An NBA fantasy basketball assistant that compares players and provides data-driv
 ## Tech Stack
 
 ### Backend
-- **Node.js** with ES modules
+- **Node.js** runs both frontend and backend servers
 - **[Mastra Framework](https://mastra.ai/en/docs)** for AI agent orchestration
 - **OpenAI GPT-4o** LLM used as the brains of the agent
 - **[Elasticsearch](https://www.elastic.co/)** for storing, querying and aggregating NBA player data
@@ -40,7 +40,7 @@ Before running this app, make sure you have:
 
    git clone https://github.com/jdarmada/nba-fantasy-chatbot-js.git
 
-   cd nba-fantasy-chatbot-js
+   cd nba-ai-assistant-js
 
    ```
 
@@ -104,7 +104,7 @@ Running this file will:
 
 1. **Start both the frontend and backend server**
    ```console
-   cd nba-fantasy-chatbot-js
+   cd nba-ai-assistant-js
    npm run dev
    ```
    The backend exposes the agent on `http://localhost:4111`, 
@@ -140,7 +140,7 @@ The application currently supports comparisons for the following NBA players:
 ## Project Structure
 
 ```
-nba-fantasy-chatbot-js/
+nba-ai-assistant-js/
 ├── backend/
 │   ├── data/
 │   │   ├── playerAndTeamInfo.js      # Player and team metadata
