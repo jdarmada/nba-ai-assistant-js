@@ -11,8 +11,8 @@ export const mastra = new Mastra({
   server:{
     timeout: 10 * 60 * 1000, // 10 minutes
     cors: {
-      origin: "*",
-      allowMethods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+      origin: ['http://localhost:5173'],
+      allowMethods: ["GET", "POST"],
       allowHeaders: [
         "Content-Type",
         "Authorization",

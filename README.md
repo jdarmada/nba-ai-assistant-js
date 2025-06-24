@@ -4,7 +4,7 @@ An NBA fantasy basketball assistant that compares players and provides data-driv
 
 ## Features
 
-- **Player Comparison**: Compare two NBA players head-to-head
+- **Player Comparison**: Compare two NBA players head to head
 - **Matchup Analysis**: Get insights based on season and historical performance against each player's next opponent
 - **AI Recommendations**: Get recommendations on who would be the best pickup
 
@@ -13,13 +13,13 @@ An NBA fantasy basketball assistant that compares players and provides data-driv
 
 ### Backend
 - **Node.js** with ES modules
-- **Mastra Framework** for AI agent orchestration
+- **[Mastra Framework](https://mastra.ai/en/docs)** for AI agent orchestration
 - **OpenAI GPT-4o** LLM used as the brains of the agent
-- **Elasticsearch** for storing, querying and aggregating NBA player data
+- **[Elasticsearch](https://www.elastic.co/)** for storing, querying and aggregating NBA player data
 
 ### Frontend
 - **React** for simple chat interface
-- **@ai-sdk/react** useChat hook for querying agent server
+- **@ai-sdk/react** [useChat](https://ai-sdk.dev/docs/reference/ai-sdk-ui/use-chat#usechat) hook for querying agent server
 - **ReactMarkdown** for properly formatted responses
 - **Vite** for scaffolding react project
 
@@ -30,7 +30,7 @@ Before running this app, make sure you have:
 - **Node.js** (v18 or higher)
 - **npm** or **yarn**
 - **Elasticsearch cluster** (local or cloud-hosted)
-- **OpenAI API key**
+- **[OpenAI API key](https://auth.openai.com/log-in)**
 
 ## Installation
 
@@ -93,8 +93,8 @@ node lib/playerDataIngestion.js
 
 Running this file will:
 - Create the `sample-nba-player-data` index
-- Ingest sample player statistics from the CSV file `sample_nba_data.csv` from the `data` directory into Elasticsearch
-- Set up proper field mappings
+- Ingest sample player statistics from the CSV file `sample_nba_data.csv` into Elasticsearch
+- Set up proper field mappings to ensure the agent can find and aggregate relevant stats
 
 
 ## Running the Application
@@ -106,7 +106,6 @@ Running this file will:
    cd nba-fantasy-chatbot-js
    npm run dev
    ```
-   The app uses Concurrently to run both parts simultaneously.
    The backend exposes the agent on `http://localhost:4111`, 
    while the frontend runs on `http://localhost:5173`
 
@@ -170,9 +169,10 @@ nba-fantasy-chatbot-js/
 The data included is pre-generated and not accurate, if you want accurate, updated statistics, please add it into your index from your preferred source.
 
 
-### Changing the AI Model
+### Changing the LLM
 
-Update the model configuration in `backend/src/mastra/agents/index.ts`:
+If you want to switch models, change the model configuration in `backend/src/mastra/agents/index.ts`
+Note: Do your research on model capabilities, some don't even support tool calling. You'll most likely need to tinker with the system prompt to get the desired output as different models have different capabilities:
 
 ```js
 model: openai('gpt-4o-mini'), // or other supported models
@@ -184,19 +184,20 @@ model: openai('gpt-4o-mini'), // or other supported models
 
 1. **Elasticsearch Connection Errors**
    - Verify your `ELASTIC_ENDPOINT` and `ELASTIC_API_KEY`
-   - Ensure your Elasticsearch cluster is running and accessible
+   - Check to see if your Elasticsearch cluster is running and accessible
 
 2. **OpenAI API Errors**
-   - Check your `OPENAI_API_KEY` is valid and has sufficient credits
+   - Check your `OPENAI_API_KEY` is valid and has enough credits
    - Verify the model name is correct
 
 3. **Data Not Found**
    - Run the data ingestion file: `node lib/playerDataIngestion.js`
-   - Check if the index `sample-nba-player-data` exists in Elasticsearch
+   - Check if the index `sample-nba-player-data` exists in your Elasticsearch cluster
 
 4. **CORS Issues**
-   - The backend is configured to allow all origins in development
-   - For production, update the CORS settings in `backend/src/mastra/index.ts`
+   - The backend is configured to accept requests from the default Vite development address `http://localhost:5173`
+   - If you're getting CORS errors, update the CORS settings in `backend/src/mastra/index.ts`
+   - The implementation is subject to change, be sure to check the [docs](https://mastra.ai/en/docs).
 
 
-**Note**: This app uses sample data for demonstration purposes. For production use with real NBA data, make sure to have proper licensing and data agreements in place.
+**Note**: This app uses sample data for demo purposes only. For production use with real NBA data, make sure to have proper licensing and data agreements in place.
