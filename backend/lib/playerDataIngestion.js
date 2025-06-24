@@ -63,6 +63,7 @@ async function bulkIngestCsv(filePath) {
     });
 
     const bulkBody = [];
+    let lineNum = 0;
 
     //Skip the header line
     let headerLine = true;
@@ -71,6 +72,7 @@ async function bulkIngestCsv(filePath) {
             headerLine = false;
             continue;
         }
+        lineNum++;
 
         // Split the line by comma and remove whitespace
         const [
@@ -117,22 +119,57 @@ async function bulkIngestCsv(filePath) {
         bulkBody.push(document);
     }
 
+    console.log(`Parsed ${lineNum} lines from CSV`);
+
     try {
         // Perform the bulk request
         const response = await elasticClient.bulk({ body: bulkBody });
 
-        if(response.errors){
-            console.log('Bulk Ingestion Failed:',response.errors)
+        if (response.errors) {
+            console.log('Bulk Ingestion had some hiccups:');
+
+            // Count successful vs failed operations
+            let successCount = 0;
+            let errorCount = 0;
+            const errorDetails = [];
+
+            response.items.forEach((item, index) => {
+                const operation = item.index || item.create || item.update || item.delete;
+                if (operation.error) {
+                    errorCount++;
+                    errorDetails.push({
+                        document: index + 1,
+                        error: operation.error,
+                    });
+                } else {
+                    successCount++;
+                }
+            });
+
+            console.log(`Successfully indexed: ${successCount} documents`);
+            console.log(`Failed to index: ${errorCount} documents, here are the details`, errorDetails);
+
         } else {
-            console.log(`Bulk Ingestion successful. Indexed ${response.items.length} documents. `)
+            console.log(`Bulk Ingestion fully successful!`);
         }
+
     } catch (error) {
         console.error('Error performing bulk ingestion:', error);
     }
 }
 
-//Call the createIndex function
-createIndex()
+// Run this function
+async function main() {
 
-// Call the bulk ingestion function
-bulkIngestCsv(filePath);
+    try {
+        await createIndex();
+        console.log('Index created');
+
+        await bulkIngestCsv(filePath);
+        console.log('Bulk Ingestion completed!');
+    } catch (error) {
+        console.error('Error during bulk ingestion:', error);
+    }
+}
+
+main();
