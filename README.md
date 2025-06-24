@@ -18,8 +18,8 @@ An NBA fantasy basketball assistant that compares players and provides data-driv
 - **Elasticsearch** for storing, querying and aggregating NBA player data
 
 ### Frontend
-- **React** with hooks
-- **@ai-sdk/react** for simple chat interface
+- **React** for simple chat interface
+- **@ai-sdk/react** useChat hook for querying agent server
 - **ReactMarkdown** for properly formatted responses
 - **Vite** for scaffolding react project
 
