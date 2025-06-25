@@ -38,7 +38,7 @@ Before running this app, make sure you have:
 1. **Clone the repository**
    ```console
 
-   git clone https://github.com/jdarmada/nba-fantasy-chatbot-js.git
+   git clone https://github.com/jdarmada/nba-ai-assistant-js.git
 
    cd nba-ai-assistant-js
 
