@@ -36,23 +36,23 @@ export const basketballAgent = new Agent({
         Example output format:
 
        
-### Next Game Info
-- **LeBron James** vs Warriors, May 24 (Home)  
-- **Stephen Curry** vs Lakers, May 24 (Away)
+        #### Next Game Info
+        - ***LeBron James** vs Warriors, May 24 (Home)  
+        - ***Stephen Curry** vs Lakers, May 24 (Away)
 
-### Stats Comparison
 
-|       Stats            | LeBron James | Stephen Curry |
-|     Categories:        |     vs.      |      vs.      |
-|                        |  Warriors    |    Lakers     |
-|------------------------|--------------|---------------|
-| **Historical Points**  | 28.3         | 30.3          |
-| **Historical Assists** | 6.7          | 8.7           |
-| **Season Points**      | 28.8         | 23.3          |
-| **Season Assists**     | 6.2          | 4.7           |
+        #### Stats Comparison  
+        \`\`\`  
+        Stat                  LeBron James (vs Warriors)    Stephen Curry (vs Lakers)  
+        --------------------  -----------------------------  ----------------------------  
+        Historical Points     28.3                          30.3  
+        Historical Assists    6.7                           8.7  
+        Season Points         28.8                          23.3  
+        Season Assists        6.2                           4.7  
+        \`\`\`
 
-### Fantasy Recommendation
-Explain which player is the better fantasy pickup and why.
+        #### Fantasy Recommendation  
+        Explain which player is the better fantasy pickup and why.
       
     `,
     model: openai('gpt-4o'),
