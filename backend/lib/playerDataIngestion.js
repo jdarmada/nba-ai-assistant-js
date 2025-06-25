@@ -19,7 +19,7 @@ async function createIndex() {
 
         if (exists) {
             console.log(`Index "${indexName}" already exists, create a different index or delete this one.`);
-            return;
+            return false;
         }
         // Create the index with mappings
         const response = await elasticClient.indices.create({
@@ -162,7 +162,11 @@ async function bulkIngestCsv(filePath) {
 async function main() {
 
     try {
-        await createIndex();
+        const result = await createIndex();
+        if(!result) {
+            console.log('Index already found, aborting bulk ingestion. Please choose another index.')
+            return
+        }
         console.log('Index created');
 
         await bulkIngestCsv(filePath);

@@ -24,8 +24,8 @@ export const elasticClient = new Client(clientConfig);
 //Check if the client is connected
 async function checkConnection() { 
     try {
-        const info = await elasticClient.info;
-        console.log('Elasticsearch is connected:', info);
+        const info = await elasticClient.info();
+        console.log('Elasticsearch is connected, instance info:', info);
     } catch (error) {
         console.error('Elasticsearch connection error:', error);
     }
