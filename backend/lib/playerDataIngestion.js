@@ -18,8 +18,9 @@ async function createIndex() {
         const exists = await elasticClient.indices.exists({ index: indexName });
 
         if (exists) {
-            console.log(`Index "${indexName}" already exists, create a different index or delete this one.`);
-            return false;
+            console.log(`Index "${indexName}" already exists, deleting it now.`);
+            await elasticClient.indices.delete({ index: indexName });
+            console.log(`Deleted index "${indexName}".`);
         }
         // Create the index with mappings
         const response = await elasticClient.indices.create({
@@ -50,8 +51,10 @@ async function createIndex() {
         });
 
         console.log('Index created:', response);
+        return true;
     } catch (error) {
         console.error('Error creating index:', error);
+        return false;
     }
 }
 
@@ -148,11 +151,9 @@ async function bulkIngestCsv(filePath) {
 
             console.log(`Successfully indexed: ${successCount} documents`);
             console.log(`Failed to index: ${errorCount} documents, here are the details`, errorDetails);
-
         } else {
             console.log(`Bulk Ingestion fully successful!`);
         }
-
     } catch (error) {
         console.error('Error performing bulk ingestion:', error);
     }
@@ -160,20 +161,14 @@ async function bulkIngestCsv(filePath) {
 
 // Run this function
 async function main() {
-
-    try {
-        const result = await createIndex();
-        if(!result) {
-            console.log('Index already found, aborting bulk ingestion. Please choose another index.')
-            return
-        }
-        console.log('Index created');
-
-        await bulkIngestCsv(filePath);
-        console.log('Bulk Ingestion completed!');
-    } catch (error) {
-        console.error('Error during bulk ingestion:', error);
+    const result = await createIndex();
+    if (!result) {
+        console.error('Index setup failed. Aborting.');
+        return;
     }
+
+    await bulkIngestCsv(filePath);
+    console.log('Bulk ingestion completed!');
 }
 
 main();
