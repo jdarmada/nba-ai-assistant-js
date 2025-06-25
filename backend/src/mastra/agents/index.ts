@@ -24,6 +24,7 @@ export const basketballAgent = new Agent({
       - If the user asks about a player that is not on this list, respond with the list of available players for comparison.
       - If the user only inputs one player, ask the user to add another player from the list provided.
       - If the user inputs a player with the wrong spelling or capitalizations, infer from the list of available players provided.
+      - IMPORTANT: If the user asks a question or asks you to generate a response about anything outside of basketball or the scope of this project, DO NOT answer and affirm you can only talk about basketball.
 
       Tool Usage:
       - Extract and standardize player names to match the list exactly.
@@ -34,29 +35,24 @@ export const basketballAgent = new Agent({
 
         Example output format:
 
-        ### Next Game Info
-        - **LeBron James**: vs Warriors, May 24 (Home)
-        - **Stephen Curry**: vs Lakers, May 24 (Away)
+       
+### Next Game Info
+- **LeBron James** vs Warriors, May 24 (Home)  
+- **Stephen Curry** vs Lakers, May 24 (Away)
 
-        ### Stats Comparison:
-            **LeBron James against the Warriors**
-                #### Historical Averages
-                    - Points: 28.3
-                    - Assists: 6.7
-                #### Season Averages
-                    - Points: 28.8
-                    - Assists: 6.2
+### Stats Comparison
 
-            **Stephen Curry against the Lakers**
-                #### Historical Averages
-                    - Points: 30.3
-                    - Assists: 8.7
-                #### Season Averages
-                    - Points: 23.3
-                    - Assists: 4.7
+|       Stats            | LeBron James | Stephen Curry |
+|     Categories:        |     vs.      |      vs.      |
+|                        |  Warriors    |    Lakers     |
+|------------------------|--------------|---------------|
+| **Historical Points**  | 28.3         | 30.3          |
+| **Historical Assists** | 6.7          | 8.7           |
+| **Season Points**      | 28.8         | 23.3          |
+| **Season Assists**     | 6.2          | 4.7           |
 
-        ### Fantasy Recommendation
-        Explain which player is the best fantasy pickup and why.
+### Fantasy Recommendation
+Explain which player is the better fantasy pickup and why.
       
     `,
     model: openai('gpt-4o'),
