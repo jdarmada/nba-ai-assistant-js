@@ -31,44 +31,56 @@ export default function ChatUI() {
     });
 
     return (
-        <div>
-            <div className="agent-info">
-                <h4 className="stats-title">What's My Agent Doing?</h4>
+        <div className="chat-container">
+            <header className="chat-header">
+                <h1 className="chat-title">NBA Fantasy Expert</h1>
+            </header>
 
-                <div className="stats-box">
-                    <strong className="stats-sub-title">Tools Called:</strong>
-                    <ul className="tool-list">
-                        {toolsCalled.map((tool, idx) => (
-                            <li key={idx}>{tool}</li>
-                        ))}
-                        {toolsCalled.length === 0 && <li>No tools called yet.</li>}
-                    </ul>
+            <section className="agent-stats">
+                <h2 className="stats-title">What's My Agent Doing?</h2>
 
-                    <div className="usage-stats">
-                        <p>Prompt Token Usage: {promptTokenUsage}</p>
-                        <p>Completion Token Usage: {completionTokenUsage}</p>
-                        <p>Total Token Usage: {totalTokenUsage}</p>
+                <div className="stats-content">
+                    <div className="stats-section">
+                        <h3 className="stats-subtitle">Tools Called:</h3>
+                        <ul className="tool-list">
+                            {toolsCalled.map((tool, idx) => (
+                                <li key={idx}>{tool}</li>
+                            ))}
+                            {toolsCalled.length === 0 && <li>No tools called yet.</li>}
+                        </ul>
+                    </div>
+
+                    <div className="stats-section">
+                        <div className="usage-stats">
+                            <p><span className="stat-label">Prompt Token Usage:</span> <span className="stat-value">{promptTokenUsage}</span></p>
+                            <p><span className="stat-label">Completion Token Usage:</span> <span className="stat-value">{completionTokenUsage}</span></p>
+                            <p><span className="stat-label">Total Token Usage:</span> <span className="stat-value">{totalTokenUsage}</span></p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <strong>Conversation:</strong>
-            <div className="convo-box">
-                {messages.map((msg) => (
-                    <div key={msg.id} className="message-item">
-                        <strong className="message-role">{msg.role === 'assistant' ? 'Basketbot' : 'You'}:</strong>
-                        <ReactMarkdown>{msg.content}</ReactMarkdown>
-                    </div>
-                ))}
-            </div>
+            <section className="conversation-container">
+                <h2 className="conversation-title">Conversation:</h2>
+                <div className="conversation-messages">
+                    {messages.map((msg) => (
+                        <div key={msg.id} className="message">
+                            <span className="message-role">
+                                {msg.role === 'assistant' ? 'Basketbot' : 'You'}:
+                            </span>
+                            <ReactMarkdown>{msg.content}</ReactMarkdown>
+                        </div>
+                    ))}
+                </div>
+            </section>
 
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="chat-form">
                 <input
                     type="text"
                     value={input}
                     onChange={handleInputChange}
                     placeholder="Input two players you want to compare."
-                    className="input-box"
+                    className="chat-input"
                 />
                 <button type="submit" disabled={status === 'streaming'}>
                     {status === 'streaming' ? 'Thinking...' : 'Send'}
