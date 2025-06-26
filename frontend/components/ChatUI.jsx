@@ -32,13 +32,8 @@ export default function ChatUI() {
 
     return (
         <div className="chat-container">
-            <header className="chat-header">
-                <h1 className="chat-title">NBA Fantasy Expert</h1>
-            </header>
-
+            <h2 className="conversation-title">NBA AI Assistant:</h2>
             <section className="agent-stats">
-                <h2 className="stats-title">What's My Agent Doing?</h2>
-
                 <div className="stats-content">
                     <div className="stats-section">
                         <h3 className="stats-subtitle">Tools Called:</h3>
@@ -52,22 +47,28 @@ export default function ChatUI() {
 
                     <div className="stats-section">
                         <div className="usage-stats">
-                            <p><span className="stat-label">Prompt Token Usage:</span> <span className="stat-value">{promptTokenUsage}</span></p>
-                            <p><span className="stat-label">Completion Token Usage:</span> <span className="stat-value">{completionTokenUsage}</span></p>
-                            <p><span className="stat-label">Total Token Usage:</span> <span className="stat-value">{totalTokenUsage}</span></p>
+                            <p>
+                                <span className="stat-label">Prompt Token Usage:</span>{' '}
+                                <span className="stat-value">{promptTokenUsage}</span>
+                            </p>
+                            <p>
+                                <span className="stat-label">Completion Token Usage:</span>{' '}
+                                <span className="stat-value">{completionTokenUsage}</span>
+                            </p>
+                            <p>
+                                <span className="stat-label">Total Token Usage:</span>{' '}
+                                <span className="stat-value">{totalTokenUsage}</span>
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
 
             <section className="conversation-container">
-                <h2 className="conversation-title">Conversation:</h2>
                 <div className="conversation-messages">
                     {messages.map((msg) => (
                         <div key={msg.id} className="message">
-                            <span className="message-role">
-                                {msg.role === 'assistant' ? 'Basketbot' : 'You'}:
-                            </span>
+                            <span className="message-role">{msg.role === 'assistant' ? 'Basketbot' : 'You'}:</span>
                             <ReactMarkdown>{msg.content}</ReactMarkdown>
                         </div>
                     ))}

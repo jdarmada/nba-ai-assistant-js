@@ -171,11 +171,14 @@
   }
   
   .usage-stats {
+    display: flex;
     font-size: var(--font-size-sm);
+
   }
   
   .usage-stats p {
     margin: var(--space-xs) 0;
+    padding-right: var(--space-md);
   }
   
   .stat-label {
@@ -190,7 +193,6 @@
   
   /* Conversation */
   .conversation-container {
-    flex: 1;
     display: flex;
     flex-direction: column;
     min-height: 0; /* Important for flexbox scrolling */
@@ -199,6 +201,7 @@
   .conversation-title {
     font-weight: 600;
     margin-bottom: var(--space-sm);
+    color: var(--color-primary);
   }
   
   .conversation-messages {
@@ -208,6 +211,7 @@
     border-radius: var(--border-radius-sm);
     padding: var(--space-md);
     overflow-y: auto;
+    min-height: 55vh;
     max-height: 50vh;
   }
   
